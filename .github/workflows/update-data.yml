@@ -1,0 +1,39 @@
+name: Update COVID Signal data
+
+on:
+  schedule:
+    - cron: '15 18 * * 5'
+      timezone: America/Los_Angeles
+    - cron: '15 9 * * 0'
+      timezone: America/Los_Angeles
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: covid-signal-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run pipeline tests
+        run: python -m unittest discover -s tests -v
+      - name: Refresh official public-health data
+        run: python scripts/update_tracker.py
+      - name: Validate publishable dataset
+        run: python scripts/validate_public_data.py
+      - name: Commit changed data
+        run: |
+          git config user.name "covid-signal-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/tracker.json
+          git diff --cached --quiet || git commit -m "Update COVID Signal data"
+          git push
+
