@@ -1,0 +1,33 @@
+{
+  "states": {
+    "WA": "Washington",
+    "TX": "Texas"
+  },
+  "sources": {
+    "wastewater": {
+      "dataset": "atcp-73re",
+      "title": "CDC Wastewater Viral Activity Level",
+      "url": "https://data.cdc.gov/resource/atcp-73re.json"
+    },
+    "emergency": {
+      "dataset": "vutn-jzwm",
+      "title": "CDC NSSP Emergency Department Visits",
+      "url": "https://data.cdc.gov/resource/vutn-jzwm.json"
+    },
+    "county_emergency": {
+      "dataset": "rdmq-nq56",
+      "title": "CDC NSSP Sub-State Emergency Department Visits",
+      "url": "https://data.cdc.gov/resource/rdmq-nq56.json"
+    },
+    "hospital": {
+      "dataset": "vdzy-6i9v",
+      "title": "CDC NHSN Hospital Admissions",
+      "url": "https://data.cdc.gov/resource/vdzy-6i9v.json"
+    },
+    "deaths": {
+      "dataset": "r8kw-7aab",
+      "title": "CDC NCHS Provisional Deaths",
+      "url": "https://data.cdc.gov/resource/r8kw-7aab.json"
+    }
+  }
+}
