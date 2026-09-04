@@ -1,0 +1,3906 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-04T22:26:49.779791+00:00",
+  "states": {
+    "WA": {
+      "name": "Washington",
+      "score": 72,
+      "level": "High",
+      "trend": "Rising",
+      "metrics": {
+        "wastewater": {
+          "available": true,
+          "latest": {
+            "date": "2026-08-29",
+            "value": 11.56,
+            "sites": 26,
+            "population_covered": 3762510
+          },
+          "percentile": 91.9,
+          "trend": "Rising",
+          "age_days": 6,
+          "stale": false,
+          "history": [
+            {
+              "date": "2025-09-06",
+              "value": 13.39,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2025-09-13",
+              "value": 10.27,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2025-09-20",
+              "value": 9.86,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2025-09-27",
+              "value": 9.69,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2025-10-04",
+              "value": 8.63,
+              "sites": 26,
+              "population_covered": 3789585
+            },
+            {
+              "date": "2025-10-11",
+              "value": 5.03,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2025-10-18",
+              "value": 7.93,
+              "sites": 26,
+              "population_covered": 3789585
+            },
+            {
+              "date": "2025-10-25",
+              "value": 3.12,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2025-11-01",
+              "value": 2.18,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2025-11-08",
+              "value": 2.73,
+              "sites": 26,
+              "population_covered": 3790935
+            },
+            {
+              "date": "2025-11-15",
+              "value": 1.55,
+              "sites": 26,
+              "population_covered": 3776299
+            },
+            {
+              "date": "2025-11-22",
+              "value": 1.72,
+              "sites": 25,
+              "population_covered": 3767824
+            },
+            {
+              "date": "2025-11-29",
+              "value": 1.63,
+              "sites": 25,
+              "population_covered": 3774585
+            },
+            {
+              "date": "2025-12-06",
+              "value": 2.53,
+              "sites": 26,
+              "population_covered": 3789585
+            },
+            {
+              "date": "2025-12-13",
+              "value": 1.15,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2025-12-20",
+              "value": 1.07,
+              "sites": 26,
+              "population_covered": 3783060
+            },
+            {
+              "date": "2025-12-27",
+              "value": 2.25,
+              "sites": 25,
+              "population_covered": 3774585
+            },
+            {
+              "date": "2026-01-03",
+              "value": 1.93,
+              "sites": 25,
+              "population_covered": 3774585
+            },
+            {
+              "date": "2026-01-10",
+              "value": 2.01,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-01-17",
+              "value": 1.55,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-01-24",
+              "value": 2.3,
+              "sites": 26,
+              "population_covered": 3778060
+            },
+            {
+              "date": "2026-01-31",
+              "value": 2.21,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-02-07",
+              "value": 2.69,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-02-14",
+              "value": 2.06,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-02-21",
+              "value": 2.77,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-02-28",
+              "value": 1.68,
+              "sites": 23,
+              "population_covered": 3405730
+            },
+            {
+              "date": "2026-03-07",
+              "value": 1.28,
+              "sites": 13,
+              "population_covered": 1240487
+            },
+            {
+              "date": "2026-03-14",
+              "value": 1.09,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-03-21",
+              "value": 0.92,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-03-28",
+              "value": 1.08,
+              "sites": 26,
+              "population_covered": 3760410
+            },
+            {
+              "date": "2026-04-04",
+              "value": 1.84,
+              "sites": 25,
+              "population_covered": 3663060
+            },
+            {
+              "date": "2026-04-11",
+              "value": 1.46,
+              "sites": 1,
+              "population_covered": 10150
+            },
+            {
+              "date": "2026-04-18",
+              "value": 1.28,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-04-25",
+              "value": 1.68,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-05-02",
+              "value": 1.85,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-05-09",
+              "value": 1.01,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-05-16",
+              "value": 1.18,
+              "sites": 27,
+              "population_covered": 3798060
+            },
+            {
+              "date": "2026-05-23",
+              "value": 1.4,
+              "sites": 26,
+              "population_covered": 3789585
+            },
+            {
+              "date": "2026-05-30",
+              "value": 1.16,
+              "sites": 26,
+              "population_covered": 3773880
+            },
+            {
+              "date": "2026-06-06",
+              "value": 1.37,
+              "sites": 26,
+              "population_covered": 3502205
+            },
+            {
+              "date": "2026-06-13",
+              "value": 1.0,
+              "sites": 3,
+              "population_covered": 191075
+            },
+            {
+              "date": "2026-06-20",
+              "value": 1.42,
+              "sites": 1,
+              "population_covered": 10150
+            },
+            {
+              "date": "2026-06-27",
+              "value": 2.82,
+              "sites": 1,
+              "population_covered": 10150
+            },
+            {
+              "date": "2026-07-04",
+              "value": 1.83,
+              "sites": 1,
+              "population_covered": 10150
+            },
+            {
+              "date": "2026-07-11",
+              "value": 0.41,
+              "sites": 1,
+              "population_covered": 10150
+            },
+            {
+              "date": "2026-07-18",
+              "value": 2.98,
+              "sites": 25,
+              "population_covered": 3729510
+            },
+            {
+              "date": "2026-07-25",
+              "value": 2.56,
+              "sites": 25,
+              "population_covered": 3729510
+            },
+            {
+              "date": "2026-08-01",
+              "value": 3.18,
+              "sites": 25,
+              "population_covered": 3747510
+            },
+            {
+              "date": "2026-08-08",
+              "value": 4.16,
+              "sites": 24,
+              "population_covered": 3522510
+            },
+            {
+              "date": "2026-08-15",
+              "value": 5.4,
+              "sites": 25,
+              "population_covered": 3537510
+            },
+            {
+              "date": "2026-08-22",
+              "value": 6.45,
+              "sites": 26,
+              "population_covered": 3762510
+            },
+            {
+              "date": "2026-08-29",
+              "value": 11.56,
+              "sites": 26,
+              "population_covered": 3762510
+            }
+          ],
+          "reporting_complete": true,
+          "reporting_percent": 100,
+          "expected_sites": 25,
+          "expected_population_covered": 3729510,
+          "latest_available_date": "2026-08-29",
+          "reporting_delayed": false
+        },
+        "emergency": {
+          "available": true,
+          "latest": {
+            "date": "2026-08-29",
+            "value": 0.5
+          },
+          "percentile": 56.2,
+          "trend": "Rising",
+          "age_days": 6,
+          "stale": false,
+          "history": [
+            {
+              "date": "2025-09-06",
+              "value": 1.8
+            },
+            {
+              "date": "2025-09-13",
+              "value": 1.9
+            },
+            {
+              "date": "2025-09-20",
+              "value": 1.7
+            },
+            {
+              "date": "2025-09-27",
+              "value": 1.4
+            },
+            {
+              "date": "2025-10-04",
+              "value": 1.1
+            },
+            {
+              "date": "2025-10-11",
+              "value": 0.8
+            },
+            {
+              "date": "2025-10-18",
+              "value": 0.6
+            },
+            {
+              "date": "2025-10-25",
+              "value": 0.5
+            },
+            {
+              "date": "2025-11-01",
+              "value": 0.4
+            },
+            {
+              "date": "2025-11-08",
+              "value": 0.3
+            },
+            {
+              "date": "2025-11-15",
+              "value": 0.3
+            },
+            {
+              "date": "2025-11-22",
+              "value": 0.2
+            },
+            {
+              "date": "2025-11-29",
+              "value": 0.2
+            },
+            {
+              "date": "2025-12-06",
+              "value": 0.2
+            },
+            {
+              "date": "2025-12-13",
+              "value": 0.2
+            },
+            {
+              "date": "2025-12-20",
+              "value": 0.2
+            },
+            {
+              "date": "2025-12-27",
+              "value": 0.2
+            },
+            {
+              "date": "2026-01-03",
+              "value": 0.3
+            },
+            {
+              "date": "2026-01-10",
+              "value": 0.3
+            },
+            {
+              "date": "2026-01-17",
+              "value": 0.3
+            },
+            {
+              "date": "2026-01-24",
+              "value": 0.3
+            },
+            {
+              "date": "2026-01-31",
+              "value": 0.3
+            },
+            {
+              "date": "2026-02-07",
+              "value": 0.3
+            },
+            {
+              "date": "2026-02-14",
+              "value": 0.3
+            },
+            {
+              "date": "2026-02-21",
+              "value": 0.3
+            },
+            {
+              "date": "2026-02-28",
+              "value": 0.2
+            },
+            {
+              "date": "2026-03-07",
+              "value": 0.2
+            },
+            {
+              "date": "2026-03-14",
+              "value": 0.2
+            },
+            {
+              "date": "2026-03-21",
+              "value": 0.2
+            },
+            {
+              "date": "2026-03-28",
+              "value": 0.2
+            },
+            {
+              "date": "2026-04-04",
+              "value": 0.2
+            },
+            {
+              "date": "2026-04-11",
+              "value": 0.2
+            },
+            {
+              "date": "2026-04-18",
+              "value": 0.1
+            },
+            {
+              "date": "2026-04-25",
+              "value": 0.1
+            },
+            {
+              "date": "2026-05-02",
+              "value": 0.1
+            },
+            {
+              "date": "2026-05-09",
+              "value": 0.1
+            },
+            {
+              "date": "2026-05-16",
+              "value": 0.1
+            },
+            {
+              "date": "2026-05-23",
+              "value": 0.1
+            },
+            {
+              "date": "2026-05-30",
+              "value": 0.1
+            },
+            {
+              "date": "2026-06-06",
+              "value": 0.1
+            },
+            {
+              "date": "2026-06-13",
+              "value": 0.1
+            },
+            {
+              "date": "2026-06-20",
+              "value": 0.1
+            },
+            {
+              "date": "2026-06-27",
+              "value": 0.1
+            },
+            {
+              "date": "2026-07-04",
+              "value": 0.1
+            },
+            {
+              "date": "2026-07-11",
+              "value": 0.1
+            },
+            {
+              "date": "2026-07-18",
+              "value": 0.1
+            },
+            {
+              "date": "2026-07-25",
+              "value": 0.2
+            },
+            {
+              "date": "2026-08-01",
+              "value": 0.2
+            },
+            {
+              "date": "2026-08-08",
+              "value": 0.3
+            },
+            {
+              "date": "2026-08-15",
+              "value": 0.3
+            },
+            {
+              "date": "2026-08-22",
+              "value": 0.4
+            },
+            {
+              "date": "2026-08-29",
+              "value": 0.5
+            }
+          ]
+        },
+        "hospital": {
+          "available": true,
+          "latest": {
+            "date": "2026-08-29",
+            "value": 0.76,
+            "reporting_percent": 95.88
+          },
+          "percentile": 97.5,
+          "trend": "Rising",
+          "age_days": 6,
+          "stale": false,
+          "history": [
+            {
+              "date": "2026-04-18",
+              "value": 0.425034205593682,
+              "reporting_percent": null
+            },
+            {
+              "date": "2026-04-25",
+              "value": 0.27,
+              "reporting_percent": null
+            },
+            {
+              "date": "2026-05-02",
+              "value": 0.35,
+              "reporting_percent": null
+            },
+            {
+              "date": "2026-05-09",
+              "value": 0.21,
+              "reporting_percent": 97.94
+            },
+            {
+              "date": "2026-05-16",
+              "value": 0.31,
+              "reporting_percent": 96.91
+            },
+            {
+              "date": "2026-05-23",
+              "value": 0.14,
+              "reporting_percent": 95.88
+            },
+            {
+              "date": "2026-05-30",
+              "value": 0.24,
+              "reporting_percent": 97.94
+            },
+            {
+              "date": "2026-06-06",
+              "value": 0.21,
+              "reporting_percent": 97.94
+            },
+            {
+              "date": "2026-06-13",
+              "value": 0.06,
+              "reporting_percent": 96.91
+            },
+            {
+              "date": "2026-06-20",
+              "value": 0.08,
+              "reporting_percent": 95.88
+            },
+            {
+              "date": "2026-06-27",
+              "value": 0.12,
+              "reporting_percent": 95.88
+            },
+            {
+              "date": "2026-07-04",
+              "value": 0.15,
+              "reporting_percent": 97.94
+            },
+            {
+              "date": "2026-07-11",
+              "value": 0.22,
+              "reporting_percent": 96.91
+            },
+            {
+              "date": "2026-07-18",
+              "value": 0.3,
+              "reporting_percent": 96.91
+            },
+            {
+              "date": "2026-07-25",
+              "value": 0.21,
+              "reporting_percent": 97.94
+            },
+            {
+              "date": "2026-08-01",
+              "value": 0.23,
+              "reporting_percent": 96.91
+            },
+            {
+              "date": "2026-08-08",
+              "value": 0.41,
+              "reporting_percent": 94.85
+            },
+            {
+              "date": "2026-08-15",
+              "value": 0.58,
+              "reporting_percent": 96.91
+            },
+            {
+              "date": "2026-08-22",
+              "value": 0.72,
+              "reporting_percent": 96.91
+            },
+            {
+              "date": "2026-08-29",
+              "value": 0.76,
+              "reporting_percent": 95.88
+            }
+          ]
+        },
+        "deaths": {
+          "available": true,
+          "latest": {
+            "date": "2026-07-25",
+            "value": 0.0,
+            "provisional": false
+          },
+          "percentile": 13.4,
+          "trend": "Stable",
+          "age_days": 41,
+          "stale": false,
+          "history": [
+            {
+              "date": "2024-03-30",
+              "value": 11.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-04-06",
+              "value": 19.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-04-13",
+              "value": 15.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-04-20",
+              "value": 10.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-05-11",
+              "value": 10.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-06-15",
+              "value": 12.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-06-22",
+              "value": 14.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-06-29",
+              "value": 12.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-07-06",
+              "value": 23.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-07-13",
+              "value": 17.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-07-20",
+              "value": 18.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-07-27",
+              "value": 27.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-08-03",
+              "value": 24.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-08-10",
+              "value": 21.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-08-17",
+              "value": 29.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-08-24",
+              "value": 24.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-08-31",
+              "value": 27.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-09-07",
+              "value": 22.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-09-14",
+              "value": 23.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-09-21",
+              "value": 23.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-09-28",
+              "value": 16.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-10-05",
+              "value": 20.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-10-12",
+              "value": 25.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-10-19",
+              "value": 22.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-10-26",
+              "value": 17.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-11-02",
+              "value": 19.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-11-09",
+              "value": 25.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-11-16",
+              "value": 17.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-11-30",
+              "value": 16.0,
+              "provisional": false
+            },
+            {
+              "date": "2024-12-21",
+              "value": 16.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-01-11",
+              "value": 10.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-01-18",
+              "value": 12.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-03-08",
+              "value": 10.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-04-05",
+              "value": 11.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-05-03",
+              "value": 13.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-05-31",
+              "value": 10.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-09-06",
+              "value": 11.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-09-13",
+              "value": 13.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-09-20",
+              "value": 15.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-09-27",
+              "value": 11.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-10-04",
+              "value": 10.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-12-06",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-01-03",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-05-09",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-05-16",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-05-23",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-06-06",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-06-13",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-06-20",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-06-27",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-07-18",
+              "value": 0.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-07-25",
+              "value": 0.0,
+              "provisional": false
+            }
+          ]
+        }
+      },
+      "geography": {
+        "counties": {
+          "53000": {
+            "name": "All",
+            "emergency": 0.4,
+            "emergency_trend": "Increasing",
+            "hsa": "All",
+            "date": "2026-08-29"
+          }
+        },
+        "wastewater_counties": {
+          "Yakima": {
+            "value": 4.1,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Whitman": {
+            "value": 5.11,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Walla Walla": {
+            "value": 5.88,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Thurston": {
+            "value": 4.92,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Spokane": {
+            "value": 3.34,
+            "sites": 2,
+            "date": "2026-08-29"
+          },
+          "Snohomish": {
+            "value": 21.63,
+            "sites": 7,
+            "date": "2026-08-29"
+          },
+          "Island": {
+            "value": 7.37,
+            "sites": 2,
+            "date": "2026-08-29"
+          },
+          "King": {
+            "value": 16.44,
+            "sites": 3,
+            "date": "2026-08-29"
+          },
+          "Skagit": {
+            "value": 5.49,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Pierce": {
+            "value": 7.64,
+            "sites": 3,
+            "date": "2026-08-29"
+          },
+          "Kittitas": {
+            "value": 1.0,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Jefferson": {
+            "value": 1.0,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Grant": {
+            "value": 5.9,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Franklin": {
+            "value": 5.85,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Clark": {
+            "value": 4.86,
+            "sites": 3,
+            "date": "2026-08-29"
+          },
+          "Benton": {
+            "value": 9.08,
+            "sites": 1,
+            "date": "2026-08-29"
+          }
+        },
+        "wastewater_summary": {
+          "date": "2026-08-29",
+          "sites": 26,
+          "population_covered": 3762510,
+          "reporting_complete": true,
+          "reporting_percent": 100,
+          "expected_sites": 25,
+          "expected_population_covered": 3729510,
+          "latest_available_date": "2026-08-29",
+          "reporting_delayed": false
+        }
+      }
+    },
+    "TX": {
+      "name": "Texas",
+      "score": 85,
+      "level": "Very high",
+      "trend": "Rising",
+      "metrics": {
+        "wastewater": {
+          "available": true,
+          "latest": {
+            "date": "2026-08-29",
+            "value": 15.38,
+            "sites": 40,
+            "population_covered": 10227135
+          },
+          "percentile": 99.5,
+          "trend": "Rising",
+          "age_days": 6,
+          "stale": false,
+          "history": [
+            {
+              "date": "2025-09-06",
+              "value": 11.05,
+              "sites": 67,
+              "population_covered": 10884747
+            },
+            {
+              "date": "2025-09-13",
+              "value": 11.24,
+              "sites": 67,
+              "population_covered": 10884747
+            },
+            {
+              "date": "2025-09-20",
+              "value": 8.78,
+              "sites": 67,
+              "population_covered": 10884747
+            },
+            {
+              "date": "2025-09-27",
+              "value": 5.02,
+              "sites": 64,
+              "population_covered": 10863694
+            },
+            {
+              "date": "2025-10-04",
+              "value": 4.44,
+              "sites": 64,
+              "population_covered": 10809204
+            },
+            {
+              "date": "2025-10-11",
+              "value": 3.21,
+              "sites": 67,
+              "population_covered": 10884747
+            },
+            {
+              "date": "2025-10-18",
+              "value": 2.81,
+              "sites": 67,
+              "population_covered": 10884747
+            },
+            {
+              "date": "2025-10-25",
+              "value": 2.44,
+              "sites": 67,
+              "population_covered": 10884747
+            },
+            {
+              "date": "2025-11-01",
+              "value": 2.79,
+              "sites": 70,
+              "population_covered": 14719361
+            },
+            {
+              "date": "2025-11-08",
+              "value": 3.45,
+              "sites": 67,
+              "population_covered": 14628359
+            },
+            {
+              "date": "2025-11-15",
+              "value": 2.86,
+              "sites": 62,
+              "population_covered": 11413017
+            },
+            {
+              "date": "2025-11-22",
+              "value": 2.02,
+              "sites": 69,
+              "population_covered": 14707274
+            },
+            {
+              "date": "2025-11-29",
+              "value": 1.27,
+              "sites": 49,
+              "population_covered": 6683240
+            },
+            {
+              "date": "2025-12-06",
+              "value": 2.56,
+              "sites": 66,
+              "population_covered": 13631517
+            },
+            {
+              "date": "2025-12-13",
+              "value": 3.79,
+              "sites": 70,
+              "population_covered": 14866248
+            },
+            {
+              "date": "2025-12-20",
+              "value": 2.7,
+              "sites": 67,
+              "population_covered": 11611791
+            },
+            {
+              "date": "2025-12-27",
+              "value": 2.39,
+              "sites": 46,
+              "population_covered": 5151233
+            },
+            {
+              "date": "2026-01-03",
+              "value": 2.71,
+              "sites": 47,
+              "population_covered": 5199983
+            },
+            {
+              "date": "2026-01-10",
+              "value": 9.5,
+              "sites": 66,
+              "population_covered": 13733881
+            },
+            {
+              "date": "2026-01-17",
+              "value": 8.65,
+              "sites": 68,
+              "population_covered": 13797591
+            },
+            {
+              "date": "2026-01-24",
+              "value": 7.86,
+              "sites": 62,
+              "population_covered": 13704711
+            },
+            {
+              "date": "2026-01-31",
+              "value": 5.72,
+              "sites": 80,
+              "population_covered": 13079299
+            },
+            {
+              "date": "2026-02-07",
+              "value": 3.8,
+              "sites": 90,
+              "population_covered": 14686446
+            },
+            {
+              "date": "2026-02-14",
+              "value": 6.86,
+              "sites": 93,
+              "population_covered": 14804114
+            },
+            {
+              "date": "2026-02-21",
+              "value": 6.28,
+              "sites": 89,
+              "population_covered": 14592391
+            },
+            {
+              "date": "2026-02-28",
+              "value": 6.05,
+              "sites": 85,
+              "population_covered": 14402983
+            },
+            {
+              "date": "2026-03-07",
+              "value": 5.49,
+              "sites": 60,
+              "population_covered": 13588386
+            },
+            {
+              "date": "2026-03-14",
+              "value": 3.6,
+              "sites": 71,
+              "population_covered": 13820090
+            },
+            {
+              "date": "2026-03-21",
+              "value": 5.4,
+              "sites": 68,
+              "population_covered": 13184326
+            },
+            {
+              "date": "2026-03-28",
+              "value": 3.9,
+              "sites": 72,
+              "population_covered": 13816460
+            },
+            {
+              "date": "2026-04-04",
+              "value": 5.36,
+              "sites": 70,
+              "population_covered": 11914156
+            },
+            {
+              "date": "2026-04-11",
+              "value": 2.27,
+              "sites": 68,
+              "population_covered": 13233153
+            },
+            {
+              "date": "2026-04-18",
+              "value": 1.91,
+              "sites": 103,
+              "population_covered": 14928888
+            },
+            {
+              "date": "2026-04-25",
+              "value": 2.01,
+              "sites": 95,
+              "population_covered": 14787092
+            },
+            {
+              "date": "2026-05-02",
+              "value": 3.11,
+              "sites": 103,
+              "population_covered": 14810376
+            },
+            {
+              "date": "2026-05-09",
+              "value": 1.36,
+              "sites": 74,
+              "population_covered": 8860187
+            },
+            {
+              "date": "2026-05-16",
+              "value": 1.5,
+              "sites": 76,
+              "population_covered": 8815332
+            },
+            {
+              "date": "2026-05-23",
+              "value": 1.51,
+              "sites": 61,
+              "population_covered": 12602008
+            },
+            {
+              "date": "2026-05-30",
+              "value": 2.77,
+              "sites": 46,
+              "population_covered": 11207567
+            },
+            {
+              "date": "2026-06-06",
+              "value": 1.34,
+              "sites": 48,
+              "population_covered": 11511828
+            },
+            {
+              "date": "2026-06-13",
+              "value": 2.3,
+              "sites": 48,
+              "population_covered": 11511828
+            },
+            {
+              "date": "2026-06-20",
+              "value": 2.82,
+              "sites": 48,
+              "population_covered": 11511828
+            },
+            {
+              "date": "2026-06-27",
+              "value": 3.54,
+              "sites": 47,
+              "population_covered": 11446028
+            },
+            {
+              "date": "2026-07-04",
+              "value": 2.87,
+              "sites": 44,
+              "population_covered": 11256290
+            },
+            {
+              "date": "2026-07-11",
+              "value": 5.57,
+              "sites": 45,
+              "population_covered": 11322090
+            },
+            {
+              "date": "2026-07-18",
+              "value": 5.08,
+              "sites": 44,
+              "population_covered": 11028863
+            },
+            {
+              "date": "2026-07-25",
+              "value": 2.61,
+              "sites": 30,
+              "population_covered": 5489507
+            },
+            {
+              "date": "2026-08-01",
+              "value": 8.19,
+              "sites": 39,
+              "population_covered": 10147135
+            },
+            {
+              "date": "2026-08-08",
+              "value": 4.39,
+              "sites": 19,
+              "population_covered": 4055000
+            },
+            {
+              "date": "2026-08-15",
+              "value": 11.34,
+              "sites": 40,
+              "population_covered": 10227135
+            },
+            {
+              "date": "2026-08-22",
+              "value": 11.11,
+              "sites": 40,
+              "population_covered": 10227135
+            },
+            {
+              "date": "2026-08-29",
+              "value": 15.38,
+              "sites": 40,
+              "population_covered": 10227135
+            }
+          ],
+          "reporting_complete": true,
+          "reporting_percent": 100,
+          "expected_sites": 40,
+          "expected_population_covered": 10187135,
+          "latest_available_date": "2026-08-29",
+          "reporting_delayed": false
+        },
+        "emergency": {
+          "available": true,
+          "latest": {
+            "date": "2026-08-29",
+            "value": 1.7
+          },
+          "percentile": 92.4,
+          "trend": "Rising",
+          "age_days": 6,
+          "stale": false,
+          "history": [
+            {
+              "date": "2025-09-06",
+              "value": 2.5
+            },
+            {
+              "date": "2025-09-13",
+              "value": 1.7
+            },
+            {
+              "date": "2025-09-20",
+              "value": 1.3
+            },
+            {
+              "date": "2025-09-27",
+              "value": 0.8
+            },
+            {
+              "date": "2025-10-04",
+              "value": 0.6
+            },
+            {
+              "date": "2025-10-11",
+              "value": 0.5
+            },
+            {
+              "date": "2025-10-18",
+              "value": 0.4
+            },
+            {
+              "date": "2025-10-25",
+              "value": 0.3
+            },
+            {
+              "date": "2025-11-01",
+              "value": 0.3
+            },
+            {
+              "date": "2025-11-08",
+              "value": 0.3
+            },
+            {
+              "date": "2025-11-15",
+              "value": 0.3
+            },
+            {
+              "date": "2025-11-22",
+              "value": 0.3
+            },
+            {
+              "date": "2025-11-29",
+              "value": 0.2
+            },
+            {
+              "date": "2025-12-06",
+              "value": 0.3
+            },
+            {
+              "date": "2025-12-13",
+              "value": 0.3
+            },
+            {
+              "date": "2025-12-20",
+              "value": 0.4
+            },
+            {
+              "date": "2025-12-27",
+              "value": 0.5
+            },
+            {
+              "date": "2026-01-03",
+              "value": 0.4
+            },
+            {
+              "date": "2026-01-10",
+              "value": 0.4
+            },
+            {
+              "date": "2026-01-17",
+              "value": 0.3
+            },
+            {
+              "date": "2026-01-24",
+              "value": 0.4
+            },
+            {
+              "date": "2026-01-31",
+              "value": 0.4
+            },
+            {
+              "date": "2026-02-07",
+              "value": 0.3
+            },
+            {
+              "date": "2026-02-14",
+              "value": 0.4
+            },
+            {
+              "date": "2026-02-21",
+              "value": 0.4
+            },
+            {
+              "date": "2026-02-28",
+              "value": 0.4
+            },
+            {
+              "date": "2026-03-07",
+              "value": 0.3
+            },
+            {
+              "date": "2026-03-14",
+              "value": 0.3
+            },
+            {
+              "date": "2026-03-21",
+              "value": 0.2
+            },
+            {
+              "date": "2026-03-28",
+              "value": 0.2
+            },
+            {
+              "date": "2026-04-04",
+              "value": 0.2
+            },
+            {
+              "date": "2026-04-11",
+              "value": 0.2
+            },
+            {
+              "date": "2026-04-18",
+              "value": 0.2
+            },
+            {
+              "date": "2026-04-25",
+              "value": 0.2
+            },
+            {
+              "date": "2026-05-02",
+              "value": 0.2
+            },
+            {
+              "date": "2026-05-09",
+              "value": 0.2
+            },
+            {
+              "date": "2026-05-16",
+              "value": 0.2
+            },
+            {
+              "date": "2026-05-23",
+              "value": 0.2
+            },
+            {
+              "date": "2026-05-30",
+              "value": 0.2
+            },
+            {
+              "date": "2026-06-06",
+              "value": 0.2
+            },
+            {
+              "date": "2026-06-13",
+              "value": 0.2
+            },
+            {
+              "date": "2026-06-20",
+              "value": 0.2
+            },
+            {
+              "date": "2026-06-27",
+              "value": 0.2
+            },
+            {
+              "date": "2026-07-04",
+              "value": 0.2
+            },
+            {
+              "date": "2026-07-11",
+              "value": 0.3
+            },
+            {
+              "date": "2026-07-18",
+              "value": 0.4
+            },
+            {
+              "date": "2026-07-25",
+              "value": 0.6
+            },
+            {
+              "date": "2026-08-01",
+              "value": 0.7
+            },
+            {
+              "date": "2026-08-08",
+              "value": 0.8
+            },
+            {
+              "date": "2026-08-15",
+              "value": 1.0
+            },
+            {
+              "date": "2026-08-22",
+              "value": 1.4
+            },
+            {
+              "date": "2026-08-29",
+              "value": 1.7
+            }
+          ]
+        },
+        "hospital": {
+          "available": true,
+          "latest": {
+            "date": "2026-08-29",
+            "value": 1.68,
+            "reporting_percent": 70.96
+          },
+          "percentile": 97.5,
+          "trend": "Rising",
+          "age_days": 6,
+          "stale": false,
+          "history": [
+            {
+              "date": "2026-04-18",
+              "value": 0.2698157099473221,
+              "reporting_percent": null
+            },
+            {
+              "date": "2026-04-25",
+              "value": 0.33,
+              "reporting_percent": null
+            },
+            {
+              "date": "2026-05-02",
+              "value": 0.29,
+              "reporting_percent": null
+            },
+            {
+              "date": "2026-05-09",
+              "value": 0.25,
+              "reporting_percent": 72.05
+            },
+            {
+              "date": "2026-05-16",
+              "value": 0.41,
+              "reporting_percent": 70.17
+            },
+            {
+              "date": "2026-05-23",
+              "value": 0.31,
+              "reporting_percent": 67.17
+            },
+            {
+              "date": "2026-05-30",
+              "value": 0.29,
+              "reporting_percent": 74.3
+            },
+            {
+              "date": "2026-06-06",
+              "value": 0.29,
+              "reporting_percent": 67.54
+            },
+            {
+              "date": "2026-06-13",
+              "value": 0.32,
+              "reporting_percent": 71.03
+            },
+            {
+              "date": "2026-06-20",
+              "value": 0.23,
+              "reporting_percent": 68.22
+            },
+            {
+              "date": "2026-06-27",
+              "value": 0.28,
+              "reporting_percent": 73.37
+            },
+            {
+              "date": "2026-07-04",
+              "value": 0.39,
+              "reporting_percent": 66.3
+            },
+            {
+              "date": "2026-07-11",
+              "value": 0.48,
+              "reporting_percent": 65.04
+            },
+            {
+              "date": "2026-07-18",
+              "value": 0.57,
+              "reporting_percent": 69.57
+            },
+            {
+              "date": "2026-07-25",
+              "value": 0.66,
+              "reporting_percent": 70.47
+            },
+            {
+              "date": "2026-08-01",
+              "value": 0.9,
+              "reporting_percent": 69.57
+            },
+            {
+              "date": "2026-08-08",
+              "value": 0.96,
+              "reporting_percent": 70.29
+            },
+            {
+              "date": "2026-08-15",
+              "value": 0.97,
+              "reporting_percent": 66.85
+            },
+            {
+              "date": "2026-08-22",
+              "value": 1.14,
+              "reporting_percent": 68.66
+            },
+            {
+              "date": "2026-08-29",
+              "value": 1.68,
+              "reporting_percent": 70.96
+            }
+          ]
+        },
+        "deaths": {
+          "available": true,
+          "latest": {
+            "date": "2026-02-28",
+            "value": 15.0,
+            "provisional": false
+          },
+          "percentile": 15.6,
+          "trend": "Stable",
+          "age_days": 188,
+          "stale": true,
+          "history": [
+            {
+              "date": "2025-01-04",
+              "value": 25.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-01-11",
+              "value": 42.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-01-18",
+              "value": 31.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-01-25",
+              "value": 33.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-02-01",
+              "value": 32.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-02-08",
+              "value": 48.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-02-15",
+              "value": 45.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-02-22",
+              "value": 36.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-03-01",
+              "value": 43.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-03-08",
+              "value": 27.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-03-15",
+              "value": 29.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-03-22",
+              "value": 40.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-03-29",
+              "value": 32.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-04-05",
+              "value": 31.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-04-12",
+              "value": 18.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-04-19",
+              "value": 27.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-04-26",
+              "value": 22.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-05-03",
+              "value": 23.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-05-10",
+              "value": 14.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-05-17",
+              "value": 13.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-05-31",
+              "value": 15.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-06-21",
+              "value": 18.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-06-28",
+              "value": 11.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-07-05",
+              "value": 16.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-07-12",
+              "value": 14.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-07-19",
+              "value": 13.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-07-26",
+              "value": 18.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-08-02",
+              "value": 23.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-08-09",
+              "value": 28.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-08-16",
+              "value": 27.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-08-23",
+              "value": 23.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-08-30",
+              "value": 33.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-09-06",
+              "value": 41.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-09-13",
+              "value": 41.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-09-20",
+              "value": 36.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-09-27",
+              "value": 34.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-10-04",
+              "value": 37.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-10-11",
+              "value": 32.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-10-18",
+              "value": 21.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-10-25",
+              "value": 15.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-11-01",
+              "value": 16.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-12-20",
+              "value": 12.0,
+              "provisional": false
+            },
+            {
+              "date": "2025-12-27",
+              "value": 13.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-01-03",
+              "value": 12.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-01-10",
+              "value": 16.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-01-17",
+              "value": 15.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-01-24",
+              "value": 10.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-01-31",
+              "value": 17.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-02-07",
+              "value": 18.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-02-14",
+              "value": 12.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-02-21",
+              "value": 18.0,
+              "provisional": false
+            },
+            {
+              "date": "2026-02-28",
+              "value": 15.0,
+              "provisional": false
+            }
+          ]
+        }
+      },
+      "geography": {
+        "counties": {
+          "48177": {
+            "name": "Gonzales",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48181": {
+            "name": "Grayson",
+            "emergency": 2.93,
+            "emergency_trend": "Increasing",
+            "hsa": "Grayson (Sherman), TX - Fannin, TX",
+            "date": "2026-08-29"
+          },
+          "48183": {
+            "name": "Gregg",
+            "emergency": 3.66,
+            "emergency_trend": "Increasing",
+            "hsa": "Gregg (Longview), TX - Rusk, TX",
+            "date": "2026-08-29"
+          },
+          "48185": {
+            "name": "Grimes",
+            "emergency": 1.91,
+            "emergency_trend": "Increasing",
+            "hsa": "Brazos (Bryan), TX - Washington, TX",
+            "date": "2026-08-29"
+          },
+          "48193": {
+            "name": "Hamilton",
+            "emergency": 2.35,
+            "emergency_trend": "Increasing",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-08-29"
+          },
+          "48197": {
+            "name": "Hardeman",
+            "emergency": 1.69,
+            "emergency_trend": "Increasing",
+            "hsa": "Wilbarger, TX - Hardeman, TX",
+            "date": "2026-08-29"
+          },
+          "48199": {
+            "name": "Hardin",
+            "emergency": 3.59,
+            "emergency_trend": "Increasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-08-29"
+          },
+          "48207": {
+            "name": "Haskell",
+            "emergency": 1.68,
+            "emergency_trend": "Increasing",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-08-29"
+          },
+          "48225": {
+            "name": "Houston",
+            "emergency": 3.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Anderson, TX - Cherokee, TX",
+            "date": "2026-08-29"
+          },
+          "48235": {
+            "name": "Irion",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48255": {
+            "name": "Karnes",
+            "emergency": 4.51,
+            "emergency_trend": "Increasing",
+            "hsa": "Bee, TX - Karnes, TX",
+            "date": "2026-08-29"
+          },
+          "48261": {
+            "name": "Kenedy",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-08-29"
+          },
+          "48263": {
+            "name": "Kent",
+            "emergency": 1.68,
+            "emergency_trend": "Increasing",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-08-29"
+          },
+          "48275": {
+            "name": "Knox",
+            "emergency": 1.82,
+            "emergency_trend": "Increasing",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-08-29"
+          },
+          "48281": {
+            "name": "Lampasas",
+            "emergency": 1.38,
+            "emergency_trend": "Increasing",
+            "hsa": "Bell (Killeen), TX - Coryell, TX",
+            "date": "2026-08-29"
+          },
+          "48289": {
+            "name": "Leon",
+            "emergency": 2.29,
+            "emergency_trend": "Increasing",
+            "hsa": "Leon, TX - Madison, TX",
+            "date": "2026-08-29"
+          },
+          "48299": {
+            "name": "Llano",
+            "emergency": 1.79,
+            "emergency_trend": "Increasing",
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-08-29"
+          },
+          "48303": {
+            "name": "Lubbock",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48313": {
+            "name": "Madison",
+            "emergency": 2.29,
+            "emergency_trend": "Increasing",
+            "hsa": "Leon, TX - Madison, TX",
+            "date": "2026-08-29"
+          },
+          "48315": {
+            "name": "Marion",
+            "emergency": 3.23,
+            "emergency_trend": "Increasing",
+            "hsa": "Harrison (Marshall), TX - Cass, TX",
+            "date": "2026-08-29"
+          },
+          "48323": {
+            "name": "Maverick",
+            "emergency": 5.46,
+            "emergency_trend": "Increasing",
+            "hsa": "Maverick, TX - Val Verde, TX",
+            "date": "2026-08-29"
+          },
+          "48307": {
+            "name": "McCulloch",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48309": {
+            "name": "McLennan",
+            "emergency": 2.35,
+            "emergency_trend": "Increasing",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-08-29"
+          },
+          "48337": {
+            "name": "Montague",
+            "emergency": 1.82,
+            "emergency_trend": "Increasing",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-08-29"
+          },
+          "48341": {
+            "name": "Moore",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48351": {
+            "name": "Newton",
+            "emergency": 3.59,
+            "emergency_trend": "Increasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-08-29"
+          },
+          "48355": {
+            "name": "Nueces",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-08-29"
+          },
+          "48357": {
+            "name": "Ochiltree",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48361": {
+            "name": "Orange",
+            "emergency": 3.59,
+            "emergency_trend": "Increasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-08-29"
+          },
+          "48365": {
+            "name": "Panola",
+            "emergency": 3.66,
+            "emergency_trend": "Increasing",
+            "hsa": "Gregg (Longview), TX - Rusk, TX",
+            "date": "2026-08-29"
+          },
+          "48371": {
+            "name": "Pecos",
+            "emergency": 3.05,
+            "emergency_trend": "Increasing",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-08-29"
+          },
+          "48375": {
+            "name": "Potter",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48385": {
+            "name": "Real",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-08-29"
+          },
+          "48391": {
+            "name": "Refugio",
+            "emergency": 2.49,
+            "emergency_trend": "Increasing",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-08-29"
+          },
+          "48427": {
+            "name": "Starr",
+            "emergency": 5.24,
+            "emergency_trend": "Increasing",
+            "hsa": "Hidalgo (Mcallen), TX - Starr, TX",
+            "date": "2026-08-29"
+          },
+          "48433": {
+            "name": "Stonewall",
+            "emergency": 1.68,
+            "emergency_trend": "Increasing",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-08-29"
+          },
+          "48439": {
+            "name": "Tarrant",
+            "emergency": 3.07,
+            "emergency_trend": "Increasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-08-29"
+          },
+          "48443": {
+            "name": "Terrell",
+            "emergency": 3.05,
+            "emergency_trend": "Increasing",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-08-29"
+          },
+          "48449": {
+            "name": "Titus",
+            "emergency": 3.53,
+            "emergency_trend": "Increasing",
+            "hsa": "Titus, TX - Morris, TX",
+            "date": "2026-08-29"
+          },
+          "48451": {
+            "name": "Tom Green",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48453": {
+            "name": "Travis",
+            "emergency": 1.79,
+            "emergency_trend": "Increasing",
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-08-29"
+          },
+          "48455": {
+            "name": "Trinity",
+            "emergency": 1.91,
+            "emergency_trend": "Increasing",
+            "hsa": "Angelina, TX - Walker, TX",
+            "date": "2026-08-29"
+          },
+          "48457": {
+            "name": "Tyler",
+            "emergency": 3.59,
+            "emergency_trend": "Increasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-08-29"
+          },
+          "48463": {
+            "name": "Uvalde",
+            "emergency": 4.47,
+            "emergency_trend": "Increasing",
+            "hsa": "Uvalde, TX",
+            "date": "2026-08-29"
+          },
+          "48467": {
+            "name": "Van Zandt",
+            "emergency": 2.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Smith (Tyler), TX - Henderson, TX",
+            "date": "2026-08-29"
+          },
+          "48469": {
+            "name": "Victoria",
+            "emergency": 2.49,
+            "emergency_trend": "Increasing",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-08-29"
+          },
+          "48481": {
+            "name": "Wharton",
+            "emergency": 2.31,
+            "emergency_trend": "Increasing",
+            "hsa": "Brazoria (Lake Jackson), TX - Wharton, TX",
+            "date": "2026-08-29"
+          },
+          "48493": {
+            "name": "Wilson",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48497": {
+            "name": "Wise",
+            "emergency": 2.06,
+            "emergency_trend": "Increasing",
+            "hsa": "Denton (Denton), TX - Wise, TX",
+            "date": "2026-08-29"
+          },
+          "48503": {
+            "name": "Young",
+            "emergency": 1.82,
+            "emergency_trend": "Increasing",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-08-29"
+          },
+          "48507": {
+            "name": "Zavala",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48007": {
+            "name": "Aransas",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-08-29"
+          },
+          "48019": {
+            "name": "Bandera",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48027": {
+            "name": "Bell",
+            "emergency": 1.38,
+            "emergency_trend": "Increasing",
+            "hsa": "Bell (Killeen), TX - Coryell, TX",
+            "date": "2026-08-29"
+          },
+          "48033": {
+            "name": "Borden",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48037": {
+            "name": "Bowie",
+            "emergency": 3.2,
+            "emergency_trend": "Increasing",
+            "hsa": "Bowie (Texarkana), TX",
+            "date": "2026-08-29"
+          },
+          "48043": {
+            "name": "Brewster",
+            "emergency": 3.87,
+            "emergency_trend": "Limited Data",
+            "hsa": "Brewster, TX - Presidio, TX",
+            "date": "2026-08-29"
+          },
+          "48047": {
+            "name": "Brooks",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-08-29"
+          },
+          "48053": {
+            "name": "Burnet",
+            "emergency": 1.79,
+            "emergency_trend": "Increasing",
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-08-29"
+          },
+          "48065": {
+            "name": "Carson",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48067": {
+            "name": "Cass",
+            "emergency": 3.23,
+            "emergency_trend": "Increasing",
+            "hsa": "Harrison (Marshall), TX - Cass, TX",
+            "date": "2026-08-29"
+          },
+          "48071": {
+            "name": "Chambers",
+            "emergency": 1.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-08-29"
+          },
+          "48075": {
+            "name": "Childress",
+            "emergency": 2.96,
+            "emergency_trend": "Increasing",
+            "hsa": "Childress, TX - Hall, TX",
+            "date": "2026-08-29"
+          },
+          "48089": {
+            "name": "Colorado",
+            "emergency": 2.34,
+            "emergency_trend": "Increasing",
+            "hsa": "Fayette, TX - Colorado, TX",
+            "date": "2026-08-29"
+          },
+          "48107": {
+            "name": "Crosby",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48111": {
+            "name": "Dallam",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48113": {
+            "name": "Dallas",
+            "emergency": 2.01,
+            "emergency_trend": "Increasing",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-08-29"
+          },
+          "48115": {
+            "name": "Dawson",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48123": {
+            "name": "DeWitt",
+            "emergency": 2.49,
+            "emergency_trend": "Increasing",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-08-29"
+          },
+          "48117": {
+            "name": "Deaf Smith",
+            "emergency": 3.35,
+            "emergency_trend": "Increasing",
+            "hsa": "Deaf Smith, TX - Parmer, TX",
+            "date": "2026-08-29"
+          },
+          "48127": {
+            "name": "Dimmit",
+            "emergency": 4.87,
+            "emergency_trend": "Increasing",
+            "hsa": "Dimmit, TX",
+            "date": "2026-08-29"
+          },
+          "48131": {
+            "name": "Duval",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-08-29"
+          },
+          "48133": {
+            "name": "Eastland",
+            "emergency": 1.68,
+            "emergency_trend": "Increasing",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-08-29"
+          },
+          "48151": {
+            "name": "Fisher",
+            "emergency": 2.09,
+            "emergency_trend": "Increasing",
+            "hsa": "Nolan, TX - Mitchell, TX",
+            "date": "2026-08-29"
+          },
+          "48153": {
+            "name": "Floyd",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Hale, TX - Castro, TX",
+            "date": "2026-08-29"
+          },
+          "48159": {
+            "name": "Franklin",
+            "emergency": 3.53,
+            "emergency_trend": "Increasing",
+            "hsa": "Titus, TX - Morris, TX",
+            "date": "2026-08-29"
+          },
+          "48167": {
+            "name": "Galveston",
+            "emergency": 2.23,
+            "emergency_trend": "Increasing",
+            "hsa": "Galveston, TX",
+            "date": "2026-08-29"
+          },
+          "48169": {
+            "name": "Garza",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48175": {
+            "name": "Goliad",
+            "emergency": 2.49,
+            "emergency_trend": "Increasing",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-08-29"
+          },
+          "48423": {
+            "name": "Smith",
+            "emergency": 2.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Smith (Tyler), TX - Henderson, TX",
+            "date": "2026-08-29"
+          },
+          "48425": {
+            "name": "Somervell",
+            "emergency": 3.07,
+            "emergency_trend": "Increasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-08-29"
+          },
+          "48447": {
+            "name": "Throckmorton",
+            "emergency": 1.82,
+            "emergency_trend": "Increasing",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-08-29"
+          },
+          "48465": {
+            "name": "Val Verde",
+            "emergency": 5.46,
+            "emergency_trend": "Increasing",
+            "hsa": "Maverick, TX - Val Verde, TX",
+            "date": "2026-08-29"
+          },
+          "48471": {
+            "name": "Walker",
+            "emergency": 1.91,
+            "emergency_trend": "Increasing",
+            "hsa": "Angelina, TX - Walker, TX",
+            "date": "2026-08-29"
+          },
+          "48475": {
+            "name": "Ward",
+            "emergency": 1.95,
+            "emergency_trend": "Increasing",
+            "hsa": "Ector (Odessa), TX - Reeves, TX",
+            "date": "2026-08-29"
+          },
+          "48477": {
+            "name": "Washington",
+            "emergency": 1.91,
+            "emergency_trend": "Increasing",
+            "hsa": "Brazos (Bryan), TX - Washington, TX",
+            "date": "2026-08-29"
+          },
+          "48479": {
+            "name": "Webb",
+            "emergency": 7.18,
+            "emergency_trend": "Increasing",
+            "hsa": "Webb (Laredo), TX - Zapata, TX",
+            "date": "2026-08-29"
+          },
+          "48487": {
+            "name": "Wilbarger",
+            "emergency": 1.69,
+            "emergency_trend": "Increasing",
+            "hsa": "Wilbarger, TX - Hardeman, TX",
+            "date": "2026-08-29"
+          },
+          "48489": {
+            "name": "Willacy",
+            "emergency": 4.39,
+            "emergency_trend": "Increasing",
+            "hsa": "Cameron (Brownsville), TX - Willacy, TX",
+            "date": "2026-08-29"
+          },
+          "48491": {
+            "name": "Williamson",
+            "emergency": 1.79,
+            "emergency_trend": "Increasing",
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-08-29"
+          },
+          "48495": {
+            "name": "Winkler",
+            "emergency": 1.95,
+            "emergency_trend": "Increasing",
+            "hsa": "Ector (Odessa), TX - Reeves, TX",
+            "date": "2026-08-29"
+          },
+          "48499": {
+            "name": "Wood",
+            "emergency": 2.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Smith (Tyler), TX - Henderson, TX",
+            "date": "2026-08-29"
+          },
+          "48011": {
+            "name": "Armstrong",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48013": {
+            "name": "Atascosa",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48021": {
+            "name": "Bastrop",
+            "emergency": 1.79,
+            "emergency_trend": "Increasing",
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-08-29"
+          },
+          "48029": {
+            "name": "Bexar",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48041": {
+            "name": "Brazos",
+            "emergency": 1.91,
+            "emergency_trend": "Increasing",
+            "hsa": "Brazos (Bryan), TX - Washington, TX",
+            "date": "2026-08-29"
+          },
+          "48051": {
+            "name": "Burleson",
+            "emergency": 1.91,
+            "emergency_trend": "Increasing",
+            "hsa": "Brazos (Bryan), TX - Washington, TX",
+            "date": "2026-08-29"
+          },
+          "48055": {
+            "name": "Caldwell",
+            "emergency": 2.25,
+            "emergency_trend": "Increasing",
+            "hsa": "Hays (San Marcos), TX - Caldwell, TX",
+            "date": "2026-08-29"
+          },
+          "48057": {
+            "name": "Calhoun",
+            "emergency": 2.49,
+            "emergency_trend": "Increasing",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-08-29"
+          },
+          "48059": {
+            "name": "Callahan",
+            "emergency": 1.68,
+            "emergency_trend": "Increasing",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-08-29"
+          },
+          "48069": {
+            "name": "Castro",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Hale, TX - Castro, TX",
+            "date": "2026-08-29"
+          },
+          "48073": {
+            "name": "Cherokee",
+            "emergency": 3.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Anderson, TX - Cherokee, TX",
+            "date": "2026-08-29"
+          },
+          "48091": {
+            "name": "Comal",
+            "emergency": 2.02,
+            "emergency_trend": "Increasing",
+            "hsa": "Comal, TX",
+            "date": "2026-08-29"
+          },
+          "48093": {
+            "name": "Comanche",
+            "emergency": 3.28,
+            "emergency_trend": "Increasing",
+            "hsa": "Erath, TX - Comanche, TX",
+            "date": "2026-08-29"
+          },
+          "48099": {
+            "name": "Coryell",
+            "emergency": 1.38,
+            "emergency_trend": "Increasing",
+            "hsa": "Bell (Killeen), TX - Coryell, TX",
+            "date": "2026-08-29"
+          },
+          "48121": {
+            "name": "Denton",
+            "emergency": 2.06,
+            "emergency_trend": "Increasing",
+            "hsa": "Denton (Denton), TX - Wise, TX",
+            "date": "2026-08-29"
+          },
+          "48141": {
+            "name": "El Paso",
+            "emergency": 1.93,
+            "emergency_trend": "Increasing",
+            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
+            "date": "2026-08-29"
+          },
+          "48139": {
+            "name": "Ellis",
+            "emergency": 2.01,
+            "emergency_trend": "Increasing",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-08-29"
+          },
+          "48145": {
+            "name": "Falls",
+            "emergency": 2.35,
+            "emergency_trend": "Increasing",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-08-29"
+          },
+          "48147": {
+            "name": "Fannin",
+            "emergency": 2.93,
+            "emergency_trend": "Increasing",
+            "hsa": "Grayson (Sherman), TX - Fannin, TX",
+            "date": "2026-08-29"
+          },
+          "48155": {
+            "name": "Foard",
+            "emergency": 1.69,
+            "emergency_trend": "Increasing",
+            "hsa": "Wilbarger, TX - Hardeman, TX",
+            "date": "2026-08-29"
+          },
+          "48179": {
+            "name": "Gray",
+            "emergency": 1.73,
+            "emergency_trend": "Increasing",
+            "hsa": "Gray, TX - Wheeler, TX",
+            "date": "2026-08-29"
+          },
+          "48187": {
+            "name": "Guadalupe",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48203": {
+            "name": "Harrison",
+            "emergency": 3.23,
+            "emergency_trend": "Increasing",
+            "hsa": "Harrison (Marshall), TX - Cass, TX",
+            "date": "2026-08-29"
+          },
+          "48205": {
+            "name": "Hartley",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48209": {
+            "name": "Hays",
+            "emergency": 2.25,
+            "emergency_trend": "Increasing",
+            "hsa": "Hays (San Marcos), TX - Caldwell, TX",
+            "date": "2026-08-29"
+          },
+          "48215": {
+            "name": "Hidalgo",
+            "emergency": 5.24,
+            "emergency_trend": "Increasing",
+            "hsa": "Hidalgo (Mcallen), TX - Starr, TX",
+            "date": "2026-08-29"
+          },
+          "48217": {
+            "name": "Hill",
+            "emergency": 2.35,
+            "emergency_trend": "Increasing",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-08-29"
+          },
+          "48219": {
+            "name": "Hockley",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48223": {
+            "name": "Hopkins",
+            "emergency": 2.01,
+            "emergency_trend": "Increasing",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-08-29"
+          },
+          "48227": {
+            "name": "Howard",
+            "emergency": 5.55,
+            "emergency_trend": "Limited Data",
+            "hsa": "Howard, TX - Glasscock, TX",
+            "date": "2026-08-29"
+          },
+          "48239": {
+            "name": "Jackson",
+            "emergency": 2.49,
+            "emergency_trend": "Increasing",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-08-29"
+          },
+          "48241": {
+            "name": "Jasper",
+            "emergency": 3.59,
+            "emergency_trend": "Increasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-08-29"
+          },
+          "48243": {
+            "name": "Jeff Davis",
+            "emergency": 3.87,
+            "emergency_trend": "Limited Data",
+            "hsa": "Brewster, TX - Presidio, TX",
+            "date": "2026-08-29"
+          },
+          "48257": {
+            "name": "Kaufman",
+            "emergency": 2.01,
+            "emergency_trend": "Increasing",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-08-29"
+          },
+          "48259": {
+            "name": "Kendall",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48265": {
+            "name": "Kerr",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-08-29"
+          },
+          "48267": {
+            "name": "Kimble",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-08-29"
+          },
+          "48277": {
+            "name": "Lamar",
+            "emergency": 2.8,
+            "emergency_trend": "Increasing",
+            "hsa": "Lamar, TX - Red River, TX",
+            "date": "2026-08-29"
+          },
+          "48287": {
+            "name": "Lee",
+            "emergency": 1.79,
+            "emergency_trend": "Increasing",
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-08-29"
+          },
+          "48293": {
+            "name": "Limestone",
+            "emergency": 2.35,
+            "emergency_trend": "Increasing",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-08-29"
+          },
+          "48301": {
+            "name": "Loving",
+            "emergency": 1.93,
+            "emergency_trend": "Increasing",
+            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
+            "date": "2026-08-29"
+          },
+          "48321": {
+            "name": "Matagorda",
+            "emergency": 2.31,
+            "emergency_trend": "Increasing",
+            "hsa": "Brazoria (Lake Jackson), TX - Wharton, TX",
+            "date": "2026-08-29"
+          },
+          "48327": {
+            "name": "Menard",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48329": {
+            "name": "Midland",
+            "emergency": 3.05,
+            "emergency_trend": "Increasing",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-08-29"
+          },
+          "48331": {
+            "name": "Milam",
+            "emergency": 1.38,
+            "emergency_trend": "Increasing",
+            "hsa": "Bell (Killeen), TX - Coryell, TX",
+            "date": "2026-08-29"
+          },
+          "48347": {
+            "name": "Nacogdoches",
+            "emergency": 2.24,
+            "emergency_trend": "Increasing",
+            "hsa": "Nacogdoches, TX - Shelby, TX",
+            "date": "2026-08-29"
+          },
+          "48363": {
+            "name": "Palo Pinto",
+            "emergency": 2.2,
+            "emergency_trend": "Increasing",
+            "hsa": "Palo Pinto, TX - Jack, TX",
+            "date": "2026-08-29"
+          },
+          "48367": {
+            "name": "Parker",
+            "emergency": 3.07,
+            "emergency_trend": "Increasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-08-29"
+          },
+          "48369": {
+            "name": "Parmer",
+            "emergency": 3.35,
+            "emergency_trend": "Increasing",
+            "hsa": "Deaf Smith, TX - Parmer, TX",
+            "date": "2026-08-29"
+          },
+          "48393": {
+            "name": "Roberts",
+            "emergency": 1.73,
+            "emergency_trend": "Increasing",
+            "hsa": "Gray, TX - Wheeler, TX",
+            "date": "2026-08-29"
+          },
+          "48399": {
+            "name": "Runnels",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48401": {
+            "name": "Rusk",
+            "emergency": 3.66,
+            "emergency_trend": "Increasing",
+            "hsa": "Gregg (Longview), TX - Rusk, TX",
+            "date": "2026-08-29"
+          },
+          "48409": {
+            "name": "San Patricio",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-08-29"
+          },
+          "48417": {
+            "name": "Shackelford",
+            "emergency": 1.68,
+            "emergency_trend": "Increasing",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-08-29"
+          },
+          "48419": {
+            "name": "Shelby",
+            "emergency": 2.24,
+            "emergency_trend": "Increasing",
+            "hsa": "Nacogdoches, TX - Shelby, TX",
+            "date": "2026-08-29"
+          },
+          "48431": {
+            "name": "Sterling",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48435": {
+            "name": "Sutton",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48441": {
+            "name": "Taylor",
+            "emergency": 1.68,
+            "emergency_trend": "Increasing",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-08-29"
+          },
+          "48461": {
+            "name": "Upton",
+            "emergency": 3.05,
+            "emergency_trend": "Increasing",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-08-29"
+          },
+          "48473": {
+            "name": "Waller",
+            "emergency": 1.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-08-29"
+          },
+          "48000": {
+            "name": "All",
+            "emergency": 1.36,
+            "emergency_trend": "Increasing",
+            "hsa": "All",
+            "date": "2026-08-29"
+          },
+          "48003": {
+            "name": "Andrews",
+            "emergency": 2.07,
+            "emergency_trend": "Increasing",
+            "hsa": "Gaines, TX - Andrews, TX",
+            "date": "2026-08-29"
+          },
+          "48005": {
+            "name": "Angelina",
+            "emergency": 1.91,
+            "emergency_trend": "Increasing",
+            "hsa": "Angelina, TX - Walker, TX",
+            "date": "2026-08-29"
+          },
+          "48009": {
+            "name": "Archer",
+            "emergency": 1.82,
+            "emergency_trend": "Increasing",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-08-29"
+          },
+          "48015": {
+            "name": "Austin",
+            "emergency": 1.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-08-29"
+          },
+          "48017": {
+            "name": "Bailey",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48031": {
+            "name": "Blanco",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-08-29"
+          },
+          "48045": {
+            "name": "Briscoe",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48079": {
+            "name": "Cochran",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48085": {
+            "name": "Collin",
+            "emergency": 2.01,
+            "emergency_trend": "Increasing",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-08-29"
+          },
+          "48097": {
+            "name": "Cooke",
+            "emergency": 2.06,
+            "emergency_trend": "Increasing",
+            "hsa": "Denton (Denton), TX - Wise, TX",
+            "date": "2026-08-29"
+          },
+          "48105": {
+            "name": "Crockett",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48119": {
+            "name": "Delta",
+            "emergency": 2.8,
+            "emergency_trend": "Increasing",
+            "hsa": "Lamar, TX - Red River, TX",
+            "date": "2026-08-29"
+          },
+          "48125": {
+            "name": "Dickens",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48135": {
+            "name": "Ector",
+            "emergency": 1.95,
+            "emergency_trend": "Increasing",
+            "hsa": "Ector (Odessa), TX - Reeves, TX",
+            "date": "2026-08-29"
+          },
+          "48149": {
+            "name": "Fayette",
+            "emergency": 2.34,
+            "emergency_trend": "Increasing",
+            "hsa": "Fayette, TX - Colorado, TX",
+            "date": "2026-08-29"
+          },
+          "48163": {
+            "name": "Frio",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48189": {
+            "name": "Hale",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Hale, TX - Castro, TX",
+            "date": "2026-08-29"
+          },
+          "48195": {
+            "name": "Hansford",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48211": {
+            "name": "Hemphill",
+            "emergency": 1.73,
+            "emergency_trend": "Increasing",
+            "hsa": "Gray, TX - Wheeler, TX",
+            "date": "2026-08-29"
+          },
+          "48213": {
+            "name": "Henderson",
+            "emergency": 2.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Smith (Tyler), TX - Henderson, TX",
+            "date": "2026-08-29"
+          },
+          "48231": {
+            "name": "Hunt",
+            "emergency": 2.01,
+            "emergency_trend": "Increasing",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-08-29"
+          },
+          "48245": {
+            "name": "Jefferson",
+            "emergency": 3.59,
+            "emergency_trend": "Increasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-08-29"
+          },
+          "48247": {
+            "name": "Jim Hogg",
+            "emergency": 7.18,
+            "emergency_trend": "Increasing",
+            "hsa": "Webb (Laredo), TX - Zapata, TX",
+            "date": "2026-08-29"
+          },
+          "48249": {
+            "name": "Jim Wells",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-08-29"
+          },
+          "48251": {
+            "name": "Johnson",
+            "emergency": 3.07,
+            "emergency_trend": "Increasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-08-29"
+          },
+          "48253": {
+            "name": "Jones",
+            "emergency": 1.68,
+            "emergency_trend": "Increasing",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-08-29"
+          },
+          "48283": {
+            "name": "La Salle",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48285": {
+            "name": "Lavaca",
+            "emergency": 2.49,
+            "emergency_trend": "Increasing",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-08-29"
+          },
+          "48291": {
+            "name": "Liberty",
+            "emergency": 1.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-08-29"
+          },
+          "48297": {
+            "name": "Live Oak",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-08-29"
+          },
+          "48305": {
+            "name": "Lynn",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48317": {
+            "name": "Martin",
+            "emergency": 3.05,
+            "emergency_trend": "Increasing",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-08-29"
+          },
+          "48319": {
+            "name": "Mason",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-08-29"
+          },
+          "48311": {
+            "name": "McMullen",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48325": {
+            "name": "Medina",
+            "emergency": 3.04,
+            "emergency_trend": "Increasing",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-08-29"
+          },
+          "48353": {
+            "name": "Nolan",
+            "emergency": 2.09,
+            "emergency_trend": "Increasing",
+            "hsa": "Nolan, TX - Mitchell, TX",
+            "date": "2026-08-29"
+          },
+          "48373": {
+            "name": "Polk",
+            "emergency": 1.91,
+            "emergency_trend": "Increasing",
+            "hsa": "Angelina, TX - Walker, TX",
+            "date": "2026-08-29"
+          },
+          "48377": {
+            "name": "Presidio",
+            "emergency": 3.87,
+            "emergency_trend": "Limited Data",
+            "hsa": "Brewster, TX - Presidio, TX",
+            "date": "2026-08-29"
+          },
+          "48381": {
+            "name": "Randall",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48383": {
+            "name": "Reagan",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48389": {
+            "name": "Reeves",
+            "emergency": 1.95,
+            "emergency_trend": "Increasing",
+            "hsa": "Ector (Odessa), TX - Reeves, TX",
+            "date": "2026-08-29"
+          },
+          "48395": {
+            "name": "Robertson",
+            "emergency": 1.91,
+            "emergency_trend": "Increasing",
+            "hsa": "Brazos (Bryan), TX - Washington, TX",
+            "date": "2026-08-29"
+          },
+          "48397": {
+            "name": "Rockwall",
+            "emergency": 2.01,
+            "emergency_trend": "Increasing",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-08-29"
+          },
+          "48407": {
+            "name": "San Jacinto",
+            "emergency": 1.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-08-29"
+          },
+          "48413": {
+            "name": "Schleicher",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48103": {
+            "name": "Crane",
+            "emergency": 1.95,
+            "emergency_trend": "Increasing",
+            "hsa": "Ector (Odessa), TX - Reeves, TX",
+            "date": "2026-08-29"
+          },
+          "48109": {
+            "name": "Culberson",
+            "emergency": 1.93,
+            "emergency_trend": "Increasing",
+            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
+            "date": "2026-08-29"
+          },
+          "48129": {
+            "name": "Donley",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48137": {
+            "name": "Edwards",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-08-29"
+          },
+          "48143": {
+            "name": "Erath",
+            "emergency": 3.28,
+            "emergency_trend": "Increasing",
+            "hsa": "Erath, TX - Comanche, TX",
+            "date": "2026-08-29"
+          },
+          "48157": {
+            "name": "Fort Bend",
+            "emergency": 1.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-08-29"
+          },
+          "48161": {
+            "name": "Freestone",
+            "emergency": 3.84,
+            "emergency_trend": "Increasing",
+            "hsa": "Navarro, TX - Freestone, TX",
+            "date": "2026-08-29"
+          },
+          "48165": {
+            "name": "Gaines",
+            "emergency": 2.07,
+            "emergency_trend": "Increasing",
+            "hsa": "Gaines, TX - Andrews, TX",
+            "date": "2026-08-29"
+          },
+          "48171": {
+            "name": "Gillespie",
+            "emergency": 2.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-08-29"
+          },
+          "48173": {
+            "name": "Glasscock",
+            "emergency": 5.55,
+            "emergency_trend": "Limited Data",
+            "hsa": "Howard, TX - Glasscock, TX",
+            "date": "2026-08-29"
+          },
+          "48191": {
+            "name": "Hall",
+            "emergency": 2.96,
+            "emergency_trend": "Increasing",
+            "hsa": "Childress, TX - Hall, TX",
+            "date": "2026-08-29"
+          },
+          "48201": {
+            "name": "Harris",
+            "emergency": 1.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-08-29"
+          },
+          "48221": {
+            "name": "Hood",
+            "emergency": 3.07,
+            "emergency_trend": "Increasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-08-29"
+          },
+          "48229": {
+            "name": "Hudspeth",
+            "emergency": 1.93,
+            "emergency_trend": "Increasing",
+            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
+            "date": "2026-08-29"
+          },
+          "48233": {
+            "name": "Hutchinson",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48237": {
+            "name": "Jack",
+            "emergency": 2.2,
+            "emergency_trend": "Increasing",
+            "hsa": "Palo Pinto, TX - Jack, TX",
+            "date": "2026-08-29"
+          },
+          "48269": {
+            "name": "King",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48271": {
+            "name": "Kinney",
+            "emergency": 5.46,
+            "emergency_trend": "Increasing",
+            "hsa": "Maverick, TX - Val Verde, TX",
+            "date": "2026-08-29"
+          },
+          "48273": {
+            "name": "Kleberg",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-08-29"
+          },
+          "48279": {
+            "name": "Lamb",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48335": {
+            "name": "Mitchell",
+            "emergency": 2.09,
+            "emergency_trend": "Increasing",
+            "hsa": "Nolan, TX - Mitchell, TX",
+            "date": "2026-08-29"
+          },
+          "48339": {
+            "name": "Montgomery",
+            "emergency": 1.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-08-29"
+          },
+          "48343": {
+            "name": "Morris",
+            "emergency": 3.53,
+            "emergency_trend": "Increasing",
+            "hsa": "Titus, TX - Morris, TX",
+            "date": "2026-08-29"
+          },
+          "48345": {
+            "name": "Motley",
+            "emergency": 1.81,
+            "emergency_trend": "Increasing",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-08-29"
+          },
+          "48349": {
+            "name": "Navarro",
+            "emergency": 3.84,
+            "emergency_trend": "Increasing",
+            "hsa": "Navarro, TX - Freestone, TX",
+            "date": "2026-08-29"
+          },
+          "48359": {
+            "name": "Oldham",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48379": {
+            "name": "Rains",
+            "emergency": 2.01,
+            "emergency_trend": "Increasing",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-08-29"
+          },
+          "48387": {
+            "name": "Red River",
+            "emergency": 2.8,
+            "emergency_trend": "Increasing",
+            "hsa": "Lamar, TX - Red River, TX",
+            "date": "2026-08-29"
+          },
+          "48403": {
+            "name": "Sabine",
+            "emergency": 2.24,
+            "emergency_trend": "Increasing",
+            "hsa": "Nacogdoches, TX - Shelby, TX",
+            "date": "2026-08-29"
+          },
+          "48405": {
+            "name": "San Augustine",
+            "emergency": 2.24,
+            "emergency_trend": "Increasing",
+            "hsa": "Nacogdoches, TX - Shelby, TX",
+            "date": "2026-08-29"
+          },
+          "48421": {
+            "name": "Sherman",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48429": {
+            "name": "Stephens",
+            "emergency": 1.68,
+            "emergency_trend": "Increasing",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-08-29"
+          },
+          "48437": {
+            "name": "Swisher",
+            "emergency": 2.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-08-29"
+          },
+          "48459": {
+            "name": "Upshur",
+            "emergency": 3.66,
+            "emergency_trend": "Increasing",
+            "hsa": "Gregg (Longview), TX - Rusk, TX",
+            "date": "2026-08-29"
+          },
+          "48483": {
+            "name": "Wheeler",
+            "emergency": 1.73,
+            "emergency_trend": "Increasing",
+            "hsa": "Gray, TX - Wheeler, TX",
+            "date": "2026-08-29"
+          },
+          "48485": {
+            "name": "Wichita",
+            "emergency": 1.82,
+            "emergency_trend": "Increasing",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-08-29"
+          },
+          "48505": {
+            "name": "Zapata",
+            "emergency": 7.18,
+            "emergency_trend": "Increasing",
+            "hsa": "Webb (Laredo), TX - Zapata, TX",
+            "date": "2026-08-29"
+          },
+          "48001": {
+            "name": "Anderson",
+            "emergency": 3.1,
+            "emergency_trend": "Increasing",
+            "hsa": "Anderson, TX - Cherokee, TX",
+            "date": "2026-08-29"
+          },
+          "48023": {
+            "name": "Baylor",
+            "emergency": 1.82,
+            "emergency_trend": "Increasing",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-08-29"
+          },
+          "48025": {
+            "name": "Bee",
+            "emergency": 4.51,
+            "emergency_trend": "Increasing",
+            "hsa": "Bee, TX - Karnes, TX",
+            "date": "2026-08-29"
+          },
+          "48035": {
+            "name": "Bosque",
+            "emergency": 2.35,
+            "emergency_trend": "Increasing",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-08-29"
+          },
+          "48039": {
+            "name": "Brazoria",
+            "emergency": 2.31,
+            "emergency_trend": "Increasing",
+            "hsa": "Brazoria (Lake Jackson), TX - Wharton, TX",
+            "date": "2026-08-29"
+          },
+          "48061": {
+            "name": "Cameron",
+            "emergency": 4.39,
+            "emergency_trend": "Increasing",
+            "hsa": "Cameron (Brownsville), TX - Willacy, TX",
+            "date": "2026-08-29"
+          },
+          "48063": {
+            "name": "Camp",
+            "emergency": 3.53,
+            "emergency_trend": "Increasing",
+            "hsa": "Titus, TX - Morris, TX",
+            "date": "2026-08-29"
+          },
+          "48077": {
+            "name": "Clay",
+            "emergency": 1.82,
+            "emergency_trend": "Increasing",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-08-29"
+          },
+          "48081": {
+            "name": "Coke",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48095": {
+            "name": "Concho",
+            "emergency": 1.83,
+            "emergency_trend": "Increasing",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-08-29"
+          },
+          "48101": {
+            "name": "Cottle",
+            "emergency": 2.96,
+            "emergency_trend": "Increasing",
+            "hsa": "Childress, TX - Hall, TX",
+            "date": "2026-08-29"
+          }
+        },
+        "wastewater_counties": {
+          "Collin": {
+            "value": 13.58,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Dallas": {
+            "value": 12.04,
+            "sites": 8,
+            "date": "2026-08-29"
+          },
+          "Kaufman": {
+            "value": 10.65,
+            "sites": 2,
+            "date": "2026-08-29"
+          },
+          "Denton": {
+            "value": 34.94,
+            "sites": 3,
+            "date": "2026-08-29"
+          },
+          "Travis": {
+            "value": 26.7,
+            "sites": 3,
+            "date": "2026-08-29"
+          },
+          "Hays": {
+            "value": 29.73,
+            "sites": 2,
+            "date": "2026-08-29"
+          },
+          "Hidalgo": {
+            "value": 31.14,
+            "sites": 2,
+            "date": "2026-08-29"
+          },
+          "Brazos": {
+            "value": 23.87,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Henderson": {
+            "value": 26.38,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Victoria": {
+            "value": 31.42,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Cooke": {
+            "value": 23.28,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Taylor": {
+            "value": 33.82,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Jefferson": {
+            "value": 36.74,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Hardin": {
+            "value": 20.64,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Anderson": {
+            "value": 12.23,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Wichita": {
+            "value": 5.43,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Webb": {
+            "value": 14.16,
+            "sites": 3,
+            "date": "2026-08-29"
+          },
+          "Tarrant": {
+            "value": 13.46,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Potter": {
+            "value": 2.78,
+            "sites": 2,
+            "date": "2026-08-29"
+          },
+          "Randall": {
+            "value": 2.78,
+            "sites": 2,
+            "date": "2026-08-29"
+          },
+          "Montgomery": {
+            "value": 12.33,
+            "sites": 2,
+            "date": "2026-08-29"
+          },
+          "Andrews": {
+            "value": 1.51,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Mclennan": {
+            "value": 18.81,
+            "sites": 1,
+            "date": "2026-08-29"
+          },
+          "Galveston": {
+            "value": 8.97,
+            "sites": 3,
+            "date": "2026-08-29"
+          }
+        },
+        "wastewater_summary": {
+          "date": "2026-08-29",
+          "sites": 40,
+          "population_covered": 10227135,
+          "reporting_complete": true,
+          "reporting_percent": 100,
+          "expected_sites": 40,
+          "expected_population_covered": 10187135,
+          "latest_available_date": "2026-08-29",
+          "reporting_delayed": false
+        }
+      }
+    }
+  },
+  "sources": {
+    "wastewater": {
+      "dataset": "atcp-73re",
+      "title": "CDC Wastewater Viral Activity Level",
+      "url": "https://data.cdc.gov/resource/atcp-73re.json"
+    },
+    "emergency": {
+      "dataset": "vutn-jzwm",
+      "title": "CDC NSSP Emergency Department Visits",
+      "url": "https://data.cdc.gov/resource/vutn-jzwm.json"
+    },
+    "county_emergency": {
+      "dataset": "rdmq-nq56",
+      "title": "CDC NSSP Sub-State Emergency Department Visits",
+      "url": "https://data.cdc.gov/resource/rdmq-nq56.json"
+    },
+    "hospital": {
+      "dataset": "vdzy-6i9v",
+      "title": "CDC NHSN Hospital Admissions",
+      "url": "https://data.cdc.gov/resource/vdzy-6i9v.json"
+    },
+    "deaths": {
+      "dataset": "r8kw-7aab",
+      "title": "CDC NCHS Provisional Deaths",
+      "url": "https://data.cdc.gov/resource/r8kw-7aab.json"
+    }
+  },
+  "methodology": {
+    "weights": {
+      "wastewater": 0.4,
+      "emergency": 0.25,
+      "hospital": 0.2,
+      "deaths": 0.15
+    },
+    "history_window_weeks": 104,
+    "death_lag_days": 28
+  }
+}
