@@ -1,0 +1,8 @@
+app/
+/data/
+outputs/
+config/com.william.covid-signal.plist
+scripts/update.sh
+__pycache__/
+*.pyc
+.DS_Store
