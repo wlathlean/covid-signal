@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T22:26:49.779791+00:00",
+  "generated_at": "2026-09-05T05:41:59.062556+00:00",
   "states": {
     "WA": {
       "name": "Washington",
-      "score": 72,
+      "score": 73,
       "level": "High",
       "trend": "Rising",
       "metrics": {
@@ -18,7 +18,7 @@
           },
           "percentile": 91.9,
           "trend": "Rising",
-          "age_days": 6,
+          "age_days": 7,
           "stale": false,
           "history": [
             {
@@ -349,7 +349,7 @@
           },
           "percentile": 56.2,
           "trend": "Rising",
-          "age_days": 6,
+          "age_days": 7,
           "stale": false,
           "history": [
             {
@@ -571,7 +571,7 @@
           },
           "percentile": 97.5,
           "trend": "Rising",
-          "age_days": 6,
+          "age_days": 7,
           "stale": false,
           "history": [
             {
@@ -679,20 +679,15 @@
         "deaths": {
           "available": true,
           "latest": {
-            "date": "2026-07-25",
+            "date": "2026-08-08",
             "value": 0.0,
             "provisional": false
           },
-          "percentile": 13.4,
+          "percentile": 15.0,
           "trend": "Stable",
-          "age_days": 41,
+          "age_days": 28,
           "stale": false,
           "history": [
-            {
-              "date": "2024-03-30",
-              "value": 11.0,
-              "provisional": false
-            },
             {
               "date": "2024-04-06",
               "value": 19.0,
@@ -947,6 +942,11 @@
               "date": "2026-07-25",
               "value": 0.0,
               "provisional": false
+            },
+            {
+              "date": "2026-08-08",
+              "value": 0.0,
+              "provisional": false
             }
           ]
         }
@@ -1072,7 +1072,7 @@
           },
           "percentile": 99.5,
           "trend": "Rising",
-          "age_days": 6,
+          "age_days": 7,
           "stale": false,
           "history": [
             {
@@ -1403,7 +1403,7 @@
           },
           "percentile": 92.4,
           "trend": "Rising",
-          "age_days": 6,
+          "age_days": 7,
           "stale": false,
           "history": [
             {
@@ -1625,7 +1625,7 @@
           },
           "percentile": 97.5,
           "trend": "Rising",
-          "age_days": 6,
+          "age_days": 7,
           "stale": false,
           "history": [
             {
@@ -1739,7 +1739,7 @@
           },
           "percentile": 15.6,
           "trend": "Stable",
-          "age_days": 188,
+          "age_days": 189,
           "stale": true,
           "history": [
             {
