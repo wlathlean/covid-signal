@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T18:47:20.203049+00:00",
+  "generated_at": "2026-09-19T05:48:55.789333+00:00",
   "states": {
     "WA": {
       "name": "Washington",
@@ -11,22 +11,16 @@
         "wastewater": {
           "available": true,
           "latest": {
-            "date": "2026-09-05",
-            "value": 11.87,
-            "sites": 25,
-            "population_covered": 3747510
+            "date": "2026-09-12",
+            "value": 8.59,
+            "sites": 23,
+            "population_covered": 3582518
           },
-          "percentile": 92.9,
+          "percentile": 83.3,
           "trend": "Rising",
-          "age_days": 8,
+          "age_days": 7,
           "stale": false,
           "history": [
-            {
-              "date": "2025-09-13",
-              "value": 10.27,
-              "sites": 27,
-              "population_covered": 3798060
-            },
             {
               "date": "2025-09-20",
               "value": 9.86,
@@ -35,7 +29,7 @@
             },
             {
               "date": "2025-09-27",
-              "value": 9.69,
+              "value": 9.7,
               "sites": 27,
               "population_covered": 3798060
             },
@@ -329,33 +323,35 @@
             },
             {
               "date": "2026-09-05",
-              "value": 11.87,
-              "sites": 25,
-              "population_covered": 3747510
+              "value": 12.36,
+              "sites": 26,
+              "population_covered": 3762510
+            },
+            {
+              "date": "2026-09-12",
+              "value": 8.59,
+              "sites": 23,
+              "population_covered": 3582518
             }
           ],
           "reporting_complete": true,
-          "reporting_percent": 100,
-          "expected_sites": 25,
-          "expected_population_covered": 3738510,
-          "latest_available_date": "2026-09-05",
+          "reporting_percent": 88,
+          "expected_sites": 26,
+          "expected_population_covered": 3755010,
+          "latest_available_date": "2026-09-12",
           "reporting_delayed": false
         },
         "emergency": {
           "available": true,
           "latest": {
-            "date": "2026-09-05",
-            "value": 0.6
+            "date": "2026-09-12",
+            "value": 0.9
           },
-          "percentile": 68.1,
+          "percentile": 84.3,
           "trend": "Rising",
-          "age_days": 8,
+          "age_days": 7,
           "stale": false,
           "history": [
-            {
-              "date": "2025-09-13",
-              "value": 1.9
-            },
             {
               "date": "2025-09-20",
               "value": 1.7
@@ -559,19 +555,23 @@
             {
               "date": "2026-09-05",
               "value": 0.6
+            },
+            {
+              "date": "2026-09-12",
+              "value": 0.9
             }
           ]
         },
         "hospital": {
           "available": true,
           "latest": {
-            "date": "2026-09-05",
-            "value": 1.03,
-            "reporting_percent": 92.78
+            "date": "2026-09-12",
+            "value": 1.24,
+            "reporting_percent": 94.85
           },
-          "percentile": 97.6,
+          "percentile": 97.7,
           "trend": "Rising",
-          "age_days": 8,
+          "age_days": 7,
           "stale": false,
           "history": [
             {
@@ -678,6 +678,11 @@
               "date": "2026-09-05",
               "value": 1.03,
               "reporting_percent": 92.78
+            },
+            {
+              "date": "2026-09-12",
+              "value": 1.24,
+              "reporting_percent": 94.85
             }
           ]
         },
@@ -690,7 +695,7 @@
           },
           "percentile": 15.0,
           "trend": "Stable",
-          "age_days": 36,
+          "age_days": 42,
           "stale": false,
           "history": [
             {
@@ -960,127 +965,121 @@
         "counties": {
           "53000": {
             "name": "All",
-            "emergency": 0.49,
+            "emergency": 0.66,
             "emergency_trend": "Increasing",
             "hsa": "All",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           }
         },
         "wastewater_counties": {
-          "Yakima": {
-            "value": 3.29,
-            "sites": 1,
-            "date": "2026-09-05"
-          },
-          "Whitman": {
-            "value": 14.29,
-            "sites": 1,
-            "date": "2026-09-05"
-          },
           "Walla Walla": {
-            "value": 5.97,
+            "value": 7.63,
             "sites": 1,
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "Thurston": {
-            "value": 6.5,
+          "Benton": {
+            "value": 16.94,
             "sites": 1,
-            "date": "2026-09-05"
-          },
-          "Spokane": {
-            "value": 2.02,
-            "sites": 2,
-            "date": "2026-09-05"
-          },
-          "Snohomish": {
-            "value": 21.15,
-            "sites": 7,
-            "date": "2026-09-05"
-          },
-          "Island": {
-            "value": 7.31,
-            "sites": 2,
-            "date": "2026-09-05"
-          },
-          "King": {
-            "value": 16.68,
-            "sites": 3,
-            "date": "2026-09-05"
-          },
-          "Skagit": {
-            "value": 7.11,
-            "sites": 1,
-            "date": "2026-09-05"
-          },
-          "Pierce": {
-            "value": 8.83,
-            "sites": 3,
-            "date": "2026-09-05"
-          },
-          "Kittitas": {
-            "value": 5.65,
-            "sites": 1,
-            "date": "2026-09-05"
-          },
-          "Jefferson": {
-            "value": 2.31,
-            "sites": 1,
-            "date": "2026-09-05"
-          },
-          "Grant": {
-            "value": 6.09,
-            "sites": 1,
-            "date": "2026-09-05"
-          },
-          "Franklin": {
-            "value": 5.58,
-            "sites": 1,
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "Clark": {
-            "value": 5.28,
+            "value": 6.93,
             "sites": 3,
-            "date": "2026-09-05"
+            "date": "2026-09-12"
+          },
+          "Franklin": {
+            "value": 6.6,
+            "sites": 1,
+            "date": "2026-09-12"
+          },
+          "Grant": {
+            "value": 5.11,
+            "sites": 1,
+            "date": "2026-09-12"
+          },
+          "Jefferson": {
+            "value": 4.64,
+            "sites": 1,
+            "date": "2026-09-12"
+          },
+          "King": {
+            "value": 8.14,
+            "sites": 3,
+            "date": "2026-09-12"
+          },
+          "Pierce": {
+            "value": 10.91,
+            "sites": 3,
+            "date": "2026-09-12"
+          },
+          "Snohomish": {
+            "value": 7.59,
+            "sites": 7,
+            "date": "2026-09-12"
+          },
+          "Kittitas": {
+            "value": 3.25,
+            "sites": 1,
+            "date": "2026-09-12"
+          },
+          "Skagit": {
+            "value": 13.08,
+            "sites": 1,
+            "date": "2026-09-12"
+          },
+          "Yakima": {
+            "value": 8.23,
+            "sites": 1,
+            "date": "2026-09-12"
+          },
+          "Island": {
+            "value": 15.26,
+            "sites": 1,
+            "date": "2026-09-12"
+          },
+          "Spokane": {
+            "value": 4.82,
+            "sites": 1,
+            "date": "2026-09-12"
+          },
+          "Thurston": {
+            "value": 8.84,
+            "sites": 1,
+            "date": "2026-09-12"
           }
         },
         "wastewater_summary": {
-          "date": "2026-09-05",
-          "sites": 25,
-          "population_covered": 3747510,
+          "date": "2026-09-12",
+          "sites": 23,
+          "population_covered": 3582518,
           "reporting_complete": true,
-          "reporting_percent": 100,
-          "expected_sites": 25,
-          "expected_population_covered": 3738510,
-          "latest_available_date": "2026-09-05",
+          "reporting_percent": 88,
+          "expected_sites": 26,
+          "expected_population_covered": 3755010,
+          "latest_available_date": "2026-09-12",
           "reporting_delayed": false
         }
       }
     },
     "TX": {
       "name": "Texas",
-      "score": 82,
+      "score": 80,
       "level": "Very high",
       "trend": "Rising",
       "metrics": {
         "wastewater": {
           "available": true,
           "latest": {
-            "date": "2026-08-29",
-            "value": 15.38,
-            "sites": 40,
-            "population_covered": 10227135
+            "date": "2026-09-05",
+            "value": 14.62,
+            "sites": 46,
+            "population_covered": 11344315
           },
-          "percentile": 99.5,
+          "percentile": 97.6,
           "trend": "Rising",
-          "age_days": 15,
-          "stale": true,
+          "age_days": 14,
+          "stale": false,
           "history": [
-            {
-              "date": "2025-09-06",
-              "value": 11.05,
-              "sites": 67,
-              "population_covered": 10884747
-            },
             {
               "date": "2025-09-13",
               "value": 11.24,
@@ -1125,25 +1124,25 @@
             },
             {
               "date": "2025-11-01",
-              "value": 2.79,
+              "value": 2.78,
               "sites": 70,
               "population_covered": 14719361
             },
             {
               "date": "2025-11-08",
-              "value": 3.45,
+              "value": 3.44,
               "sites": 67,
               "population_covered": 14628359
             },
             {
               "date": "2025-11-15",
-              "value": 2.86,
+              "value": 2.85,
               "sites": 62,
               "population_covered": 11413017
             },
             {
               "date": "2025-11-22",
-              "value": 2.02,
+              "value": 2.01,
               "sites": 69,
               "population_covered": 14707274
             },
@@ -1161,13 +1160,13 @@
             },
             {
               "date": "2025-12-13",
-              "value": 3.79,
+              "value": 3.77,
               "sites": 70,
               "population_covered": 14866248
             },
             {
               "date": "2025-12-20",
-              "value": 2.7,
+              "value": 2.69,
               "sites": 67,
               "population_covered": 11611791
             },
@@ -1185,73 +1184,73 @@
             },
             {
               "date": "2026-01-10",
-              "value": 9.5,
+              "value": 9.44,
               "sites": 66,
               "population_covered": 13733881
             },
             {
               "date": "2026-01-17",
-              "value": 8.65,
+              "value": 8.63,
               "sites": 68,
               "population_covered": 13797591
             },
             {
               "date": "2026-01-24",
-              "value": 7.86,
+              "value": 7.81,
               "sites": 62,
               "population_covered": 13704711
             },
             {
               "date": "2026-01-31",
-              "value": 5.72,
+              "value": 5.75,
               "sites": 80,
               "population_covered": 13079299
             },
             {
               "date": "2026-02-07",
-              "value": 3.8,
+              "value": 3.93,
               "sites": 90,
               "population_covered": 14686446
             },
             {
               "date": "2026-02-14",
-              "value": 6.86,
+              "value": 7.41,
               "sites": 93,
               "population_covered": 14804114
             },
             {
               "date": "2026-02-21",
-              "value": 6.28,
+              "value": 6.29,
               "sites": 89,
               "population_covered": 14592391
             },
             {
               "date": "2026-02-28",
-              "value": 6.05,
+              "value": 6.06,
               "sites": 85,
               "population_covered": 14402983
             },
             {
               "date": "2026-03-07",
-              "value": 5.49,
+              "value": 5.45,
               "sites": 60,
               "population_covered": 13588386
             },
             {
               "date": "2026-03-14",
-              "value": 3.6,
+              "value": 3.57,
               "sites": 71,
               "population_covered": 13820090
             },
             {
               "date": "2026-03-21",
-              "value": 5.4,
+              "value": 5.36,
               "sites": 68,
               "population_covered": 13184326
             },
             {
               "date": "2026-03-28",
-              "value": 3.9,
+              "value": 3.89,
               "sites": 72,
               "population_covered": 13816460
             },
@@ -1287,19 +1286,19 @@
             },
             {
               "date": "2026-05-09",
-              "value": 1.36,
+              "value": 1.37,
               "sites": 74,
               "population_covered": 8860187
             },
             {
               "date": "2026-05-16",
-              "value": 1.5,
+              "value": 1.53,
               "sites": 76,
               "population_covered": 8815332
             },
             {
               "date": "2026-05-23",
-              "value": 1.52,
+              "value": 1.51,
               "sites": 61,
               "population_covered": 12602008
             },
@@ -1311,105 +1310,107 @@
             },
             {
               "date": "2026-06-06",
-              "value": 1.34,
+              "value": 1.33,
               "sites": 48,
               "population_covered": 11511828
             },
             {
               "date": "2026-06-13",
-              "value": 2.3,
+              "value": 2.31,
               "sites": 48,
               "population_covered": 11511828
             },
             {
               "date": "2026-06-20",
-              "value": 2.82,
+              "value": 2.8,
               "sites": 48,
               "population_covered": 11511828
             },
             {
               "date": "2026-06-27",
-              "value": 3.54,
+              "value": 3.6,
               "sites": 47,
               "population_covered": 11446028
             },
             {
               "date": "2026-07-04",
-              "value": 2.87,
-              "sites": 44,
-              "population_covered": 11256290
+              "value": 3.07,
+              "sites": 39,
+              "population_covered": 10161335
             },
             {
               "date": "2026-07-11",
-              "value": 5.57,
-              "sites": 45,
-              "population_covered": 11322090
+              "value": 6.09,
+              "sites": 40,
+              "population_covered": 10227135
             },
             {
               "date": "2026-07-18",
-              "value": 5.08,
-              "sites": 44,
-              "population_covered": 11028863
+              "value": 5.41,
+              "sites": 40,
+              "population_covered": 10227135
             },
             {
               "date": "2026-07-25",
-              "value": 2.61,
-              "sites": 30,
-              "population_covered": 5489507
+              "value": 3.33,
+              "sites": 19,
+              "population_covered": 4055000
             },
             {
               "date": "2026-08-01",
-              "value": 8.19,
+              "value": 8.15,
               "sites": 39,
               "population_covered": 10147135
             },
             {
               "date": "2026-08-08",
-              "value": 4.39,
-              "sites": 19,
-              "population_covered": 4055000
+              "value": 3.35,
+              "sites": 32,
+              "population_covered": 5545732
             },
             {
               "date": "2026-08-15",
-              "value": 11.34,
+              "value": 11.27,
               "sites": 40,
               "population_covered": 10227135
             },
             {
               "date": "2026-08-22",
-              "value": 11.11,
+              "value": 11.07,
               "sites": 40,
               "population_covered": 10227135
             },
             {
               "date": "2026-08-29",
-              "value": 15.38,
+              "value": 15.4,
               "sites": 40,
               "population_covered": 10227135
+            },
+            {
+              "date": "2026-09-05",
+              "value": 14.62,
+              "sites": 46,
+              "population_covered": 11344315
             }
           ],
           "reporting_complete": true,
           "reporting_percent": 100,
           "expected_sites": 40,
           "expected_population_covered": 10187135,
-          "latest_available_date": "2026-09-05",
+          "latest_available_date": "2026-09-12",
           "reporting_delayed": true
         },
         "emergency": {
           "available": true,
           "latest": {
-            "date": "2026-09-05",
-            "value": 1.6
+            "date": "2026-09-12",
+            "value": 1.3
           },
-          "percentile": 91.4,
+          "percentile": 88.1,
           "trend": "Rising",
-          "age_days": 8,
+          "age_days": 7,
           "stale": false,
           "history": [
-            {
-              "date": "2025-09-13",
-              "value": 1.7
-            },
             {
               "date": "2025-09-20",
               "value": 1.3
@@ -1613,19 +1614,23 @@
             {
               "date": "2026-09-05",
               "value": 1.6
+            },
+            {
+              "date": "2026-09-12",
+              "value": 1.3
             }
           ]
         },
         "hospital": {
           "available": true,
           "latest": {
-            "date": "2026-09-05",
-            "value": 1.9,
-            "reporting_percent": 69.15
+            "date": "2026-09-12",
+            "value": 1.81,
+            "reporting_percent": 69.69
           },
-          "percentile": 97.6,
+          "percentile": 93.2,
           "trend": "Rising",
-          "age_days": 8,
+          "age_days": 7,
           "stale": false,
           "history": [
             {
@@ -1732,6 +1737,11 @@
               "date": "2026-09-05",
               "value": 1.9,
               "reporting_percent": 69.15
+            },
+            {
+              "date": "2026-09-12",
+              "value": 1.81,
+              "reporting_percent": 69.69
             }
           ]
         },
@@ -1744,7 +1754,7 @@
           },
           "percentile": 1.4,
           "trend": "Stable",
-          "age_days": 29,
+          "age_days": 35,
           "stale": false,
           "history": [
             {
@@ -2012,1860 +2022,1860 @@
       },
       "geography": {
         "counties": {
-          "48085": {
-            "name": "Collin",
-            "emergency": 1.15,
-            "emergency_trend": "Increasing",
-            "hsa": "Dallas (Dallas), TX - Collin, TX",
-            "date": "2026-09-05"
-          },
-          "48097": {
-            "name": "Cooke",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Denton (Denton), TX - Wise, TX",
-            "date": "2026-09-05"
-          },
-          "48105": {
-            "name": "Crockett",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
-          },
-          "48107": {
-            "name": "Crosby",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48111": {
-            "name": "Dallam",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48113": {
-            "name": "Dallas",
-            "emergency": 1.15,
-            "emergency_trend": "Increasing",
-            "hsa": "Dallas (Dallas), TX - Collin, TX",
-            "date": "2026-09-05"
-          },
-          "48141": {
-            "name": "El Paso",
-            "emergency": 1.17,
-            "emergency_trend": "No Change",
-            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
-            "date": "2026-09-05"
-          },
-          "48143": {
-            "name": "Erath",
-            "emergency": 1.77,
-            "emergency_trend": "No Change",
-            "hsa": "Erath, TX - Comanche, TX",
-            "date": "2026-09-05"
-          },
-          "48147": {
-            "name": "Fannin",
-            "emergency": 1.82,
-            "emergency_trend": "Increasing",
-            "hsa": "Grayson (Sherman), TX - Fannin, TX",
-            "date": "2026-09-05"
-          },
-          "48155": {
-            "name": "Foard",
-            "emergency": 0.88,
-            "emergency_trend": "No Change",
-            "hsa": "Wilbarger, TX - Hardeman, TX",
-            "date": "2026-09-05"
-          },
-          "48157": {
-            "name": "Fort Bend",
-            "emergency": 1.25,
-            "emergency_trend": "Increasing",
-            "hsa": "Harris (Houston), TX - Fort Bend, TX",
-            "date": "2026-09-05"
-          },
-          "48159": {
-            "name": "Franklin",
-            "emergency": 2.82,
-            "emergency_trend": "Increasing",
-            "hsa": "Titus, TX - Morris, TX",
-            "date": "2026-09-05"
-          },
-          "48167": {
-            "name": "Galveston",
-            "emergency": 1.41,
-            "emergency_trend": "Increasing",
-            "hsa": "Galveston, TX",
-            "date": "2026-09-05"
-          },
-          "48175": {
-            "name": "Goliad",
-            "emergency": 1.9,
-            "emergency_trend": "Increasing",
-            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
-            "date": "2026-09-05"
-          },
-          "48179": {
-            "name": "Gray",
-            "emergency": 0.04,
-            "emergency_trend": "No Change",
-            "hsa": "Gray, TX - Wheeler, TX",
-            "date": "2026-09-05"
-          },
-          "48181": {
-            "name": "Grayson",
-            "emergency": 1.82,
-            "emergency_trend": "Increasing",
-            "hsa": "Grayson (Sherman), TX - Fannin, TX",
-            "date": "2026-09-05"
-          },
-          "48193": {
-            "name": "Hamilton",
-            "emergency": 1.38,
-            "emergency_trend": "No Change",
-            "hsa": "McLennan (Waco), TX - Hill, TX",
-            "date": "2026-09-05"
-          },
-          "48197": {
-            "name": "Hardeman",
-            "emergency": 0.88,
-            "emergency_trend": "No Change",
-            "hsa": "Wilbarger, TX - Hardeman, TX",
-            "date": "2026-09-05"
-          },
-          "48201": {
-            "name": "Harris",
-            "emergency": 1.25,
-            "emergency_trend": "Increasing",
-            "hsa": "Harris (Houston), TX - Fort Bend, TX",
-            "date": "2026-09-05"
-          },
-          "48207": {
-            "name": "Haskell",
-            "emergency": 0.74,
-            "emergency_trend": "No Change",
-            "hsa": "Taylor (Abilene), TX - Jones, TX",
-            "date": "2026-09-05"
-          },
-          "48227": {
-            "name": "Howard",
-            "emergency": 0.01,
-            "emergency_trend": "Limited Data",
-            "hsa": "Howard, TX - Glasscock, TX",
-            "date": "2026-09-05"
-          },
-          "48231": {
-            "name": "Hunt",
-            "emergency": 1.15,
-            "emergency_trend": "Increasing",
-            "hsa": "Dallas (Dallas), TX - Collin, TX",
-            "date": "2026-09-05"
-          },
-          "48235": {
-            "name": "Irion",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
-          },
-          "48271": {
-            "name": "Kinney",
-            "emergency": 4.82,
-            "emergency_trend": "No Change",
-            "hsa": "Maverick, TX - Val Verde, TX",
-            "date": "2026-09-05"
-          },
-          "48273": {
-            "name": "Kleberg",
-            "emergency": 1.7,
-            "emergency_trend": "No Change",
-            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
-            "date": "2026-09-05"
-          },
-          "48277": {
-            "name": "Lamar",
-            "emergency": 1.49,
-            "emergency_trend": "No Change",
-            "hsa": "Lamar, TX - Red River, TX",
-            "date": "2026-09-05"
-          },
-          "48289": {
-            "name": "Leon",
-            "emergency": 0.96,
-            "emergency_trend": "No Change",
-            "hsa": "Leon, TX - Madison, TX",
-            "date": "2026-09-05"
-          },
-          "48293": {
-            "name": "Limestone",
-            "emergency": 1.38,
-            "emergency_trend": "No Change",
-            "hsa": "McLennan (Waco), TX - Hill, TX",
-            "date": "2026-09-05"
-          },
-          "48299": {
-            "name": "Llano",
-            "emergency": 1.03,
-            "emergency_trend": "Increasing",
-            "hsa": "Travis (Austin), TX - Williamson, TX",
-            "date": "2026-09-05"
-          },
-          "48301": {
-            "name": "Loving",
-            "emergency": 1.17,
-            "emergency_trend": "No Change",
-            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
-            "date": "2026-09-05"
-          },
-          "48303": {
-            "name": "Lubbock",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48321": {
-            "name": "Matagorda",
-            "emergency": 1.91,
-            "emergency_trend": "No Change",
-            "hsa": "Brazoria (Lake Jackson), TX - Wharton, TX",
-            "date": "2026-09-05"
-          },
-          "48309": {
-            "name": "McLennan",
-            "emergency": 1.38,
-            "emergency_trend": "No Change",
-            "hsa": "McLennan (Waco), TX - Hill, TX",
-            "date": "2026-09-05"
-          },
-          "48325": {
-            "name": "Medina",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
-          "48331": {
-            "name": "Milam",
-            "emergency": 0.58,
-            "emergency_trend": "No Change",
-            "hsa": "Bell (Killeen), TX - Coryell, TX",
-            "date": "2026-09-05"
-          },
-          "48337": {
-            "name": "Montague",
-            "emergency": 0.35,
-            "emergency_trend": "No Change",
-            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
-            "date": "2026-09-05"
-          },
-          "48367": {
-            "name": "Parker",
-            "emergency": 1.86,
-            "emergency_trend": "Increasing",
-            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
-            "date": "2026-09-05"
-          },
-          "48379": {
-            "name": "Rains",
-            "emergency": 1.15,
-            "emergency_trend": "Increasing",
-            "hsa": "Dallas (Dallas), TX - Collin, TX",
-            "date": "2026-09-05"
-          },
-          "48391": {
-            "name": "Refugio",
-            "emergency": 1.9,
-            "emergency_trend": "Increasing",
-            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
-            "date": "2026-09-05"
-          },
-          "48395": {
-            "name": "Robertson",
-            "emergency": 1.23,
-            "emergency_trend": "Increasing",
-            "hsa": "Brazos (Bryan), TX - Washington, TX",
-            "date": "2026-09-05"
-          },
-          "48397": {
-            "name": "Rockwall",
-            "emergency": 1.15,
-            "emergency_trend": "Increasing",
-            "hsa": "Dallas (Dallas), TX - Collin, TX",
-            "date": "2026-09-05"
-          },
-          "48405": {
-            "name": "San Augustine",
-            "emergency": 1.07,
-            "emergency_trend": "No Change",
-            "hsa": "Nacogdoches, TX - Shelby, TX",
-            "date": "2026-09-05"
-          },
-          "48413": {
-            "name": "Schleicher",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
-          },
-          "48437": {
-            "name": "Swisher",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48439": {
-            "name": "Tarrant",
-            "emergency": 1.86,
-            "emergency_trend": "Increasing",
-            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
-            "date": "2026-09-05"
-          },
-          "48441": {
-            "name": "Taylor",
-            "emergency": 0.74,
-            "emergency_trend": "No Change",
-            "hsa": "Taylor (Abilene), TX - Jones, TX",
-            "date": "2026-09-05"
-          },
-          "48449": {
-            "name": "Titus",
-            "emergency": 2.82,
-            "emergency_trend": "Increasing",
-            "hsa": "Titus, TX - Morris, TX",
-            "date": "2026-09-05"
-          },
-          "48457": {
-            "name": "Tyler",
-            "emergency": 3.69,
-            "emergency_trend": "Increasing",
-            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
-            "date": "2026-09-05"
-          },
-          "48475": {
-            "name": "Ward",
-            "emergency": 0.72,
-            "emergency_trend": "No Change",
-            "hsa": "Ector (Odessa), TX - Reeves, TX",
-            "date": "2026-09-05"
-          },
-          "48481": {
-            "name": "Wharton",
-            "emergency": 1.91,
-            "emergency_trend": "No Change",
-            "hsa": "Brazoria (Lake Jackson), TX - Wharton, TX",
-            "date": "2026-09-05"
-          },
-          "48485": {
-            "name": "Wichita",
-            "emergency": 0.35,
-            "emergency_trend": "No Change",
-            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
-            "date": "2026-09-05"
-          },
-          "48497": {
-            "name": "Wise",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Denton (Denton), TX - Wise, TX",
-            "date": "2026-09-05"
-          },
-          "48499": {
-            "name": "Wood",
-            "emergency": 1.24,
-            "emergency_trend": "No Change",
-            "hsa": "Smith (Tyler), TX - Henderson, TX",
-            "date": "2026-09-05"
-          },
-          "48009": {
-            "name": "Archer",
-            "emergency": 0.35,
-            "emergency_trend": "No Change",
-            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
-            "date": "2026-09-05"
-          },
-          "48013": {
-            "name": "Atascosa",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
-          "48027": {
-            "name": "Bell",
-            "emergency": 0.58,
-            "emergency_trend": "No Change",
-            "hsa": "Bell (Killeen), TX - Coryell, TX",
-            "date": "2026-09-05"
-          },
-          "48035": {
-            "name": "Bosque",
-            "emergency": 1.38,
-            "emergency_trend": "No Change",
-            "hsa": "McLennan (Waco), TX - Hill, TX",
-            "date": "2026-09-05"
-          },
-          "48045": {
-            "name": "Briscoe",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48059": {
-            "name": "Callahan",
-            "emergency": 0.74,
-            "emergency_trend": "No Change",
-            "hsa": "Taylor (Abilene), TX - Jones, TX",
-            "date": "2026-09-05"
-          },
-          "48063": {
-            "name": "Camp",
-            "emergency": 2.82,
-            "emergency_trend": "Increasing",
-            "hsa": "Titus, TX - Morris, TX",
-            "date": "2026-09-05"
-          },
-          "48073": {
-            "name": "Cherokee",
-            "emergency": 0.9,
-            "emergency_trend": "No Change",
-            "hsa": "Anderson, TX - Cherokee, TX",
-            "date": "2026-09-05"
-          },
-          "48077": {
-            "name": "Clay",
-            "emergency": 0.35,
-            "emergency_trend": "No Change",
-            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
-            "date": "2026-09-05"
-          },
-          "48163": {
-            "name": "Frio",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
-          "48171": {
-            "name": "Gillespie",
-            "emergency": 1.14,
-            "emergency_trend": "No Change",
-            "hsa": "Kerr, TX - Gillespie, TX",
-            "date": "2026-09-05"
-          },
-          "48189": {
-            "name": "Hale",
-            "emergency": 1.15,
-            "emergency_trend": "No Change",
-            "hsa": "Hale, TX - Castro, TX",
-            "date": "2026-09-05"
-          },
-          "48199": {
-            "name": "Hardin",
-            "emergency": 3.69,
-            "emergency_trend": "Increasing",
-            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
-            "date": "2026-09-05"
-          },
-          "48203": {
-            "name": "Harrison",
-            "emergency": 2.49,
-            "emergency_trend": "Increasing",
-            "hsa": "Harrison (Marshall), TX - Cass, TX",
-            "date": "2026-09-05"
-          },
-          "48211": {
-            "name": "Hemphill",
-            "emergency": 0.04,
-            "emergency_trend": "No Change",
-            "hsa": "Gray, TX - Wheeler, TX",
-            "date": "2026-09-05"
-          },
-          "48215": {
-            "name": "Hidalgo",
-            "emergency": 5.5,
-            "emergency_trend": "Increasing",
-            "hsa": "Hidalgo (Mcallen), TX - Starr, TX",
-            "date": "2026-09-05"
-          },
-          "48217": {
-            "name": "Hill",
-            "emergency": 1.38,
-            "emergency_trend": "No Change",
-            "hsa": "McLennan (Waco), TX - Hill, TX",
-            "date": "2026-09-05"
-          },
-          "48221": {
-            "name": "Hood",
-            "emergency": 1.86,
-            "emergency_trend": "Increasing",
-            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
-            "date": "2026-09-05"
-          },
-          "48233": {
-            "name": "Hutchinson",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48237": {
-            "name": "Jack",
-            "emergency": 0.08,
-            "emergency_trend": "No Change",
-            "hsa": "Palo Pinto, TX - Jack, TX",
-            "date": "2026-09-05"
-          },
-          "48241": {
-            "name": "Jasper",
-            "emergency": 3.69,
-            "emergency_trend": "Increasing",
-            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
-            "date": "2026-09-05"
-          },
-          "48255": {
-            "name": "Karnes",
-            "emergency": 2.73,
-            "emergency_trend": "No Change",
-            "hsa": "Bee, TX - Karnes, TX",
-            "date": "2026-09-05"
-          },
-          "48259": {
-            "name": "Kendall",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
-          "48265": {
-            "name": "Kerr",
-            "emergency": 1.14,
-            "emergency_trend": "No Change",
-            "hsa": "Kerr, TX - Gillespie, TX",
-            "date": "2026-09-05"
-          },
-          "48283": {
-            "name": "La Salle",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
-          "48285": {
-            "name": "Lavaca",
-            "emergency": 1.9,
-            "emergency_trend": "Increasing",
-            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
-            "date": "2026-09-05"
-          },
-          "48291": {
-            "name": "Liberty",
-            "emergency": 1.25,
-            "emergency_trend": "Increasing",
-            "hsa": "Harris (Houston), TX - Fort Bend, TX",
-            "date": "2026-09-05"
-          },
-          "48305": {
-            "name": "Lynn",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48323": {
-            "name": "Maverick",
-            "emergency": 4.82,
-            "emergency_trend": "No Change",
-            "hsa": "Maverick, TX - Val Verde, TX",
-            "date": "2026-09-05"
-          },
-          "48339": {
-            "name": "Montgomery",
-            "emergency": 1.25,
-            "emergency_trend": "Increasing",
-            "hsa": "Harris (Houston), TX - Fort Bend, TX",
-            "date": "2026-09-05"
-          },
-          "48341": {
-            "name": "Moore",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48343": {
-            "name": "Morris",
-            "emergency": 2.82,
-            "emergency_trend": "Increasing",
-            "hsa": "Titus, TX - Morris, TX",
-            "date": "2026-09-05"
-          },
-          "48351": {
-            "name": "Newton",
-            "emergency": 3.69,
-            "emergency_trend": "Increasing",
-            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
-            "date": "2026-09-05"
-          },
-          "48353": {
-            "name": "Nolan",
-            "emergency": 0.31,
-            "emergency_trend": "No Change",
-            "hsa": "Nolan, TX - Mitchell, TX",
-            "date": "2026-09-05"
-          },
-          "48359": {
-            "name": "Oldham",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48363": {
-            "name": "Palo Pinto",
-            "emergency": 0.08,
-            "emergency_trend": "No Change",
-            "hsa": "Palo Pinto, TX - Jack, TX",
-            "date": "2026-09-05"
-          },
-          "48365": {
-            "name": "Panola",
-            "emergency": 1.79,
-            "emergency_trend": "No Change",
-            "hsa": "Gregg (Longview), TX - Rusk, TX",
-            "date": "2026-09-05"
-          },
-          "48369": {
-            "name": "Parmer",
-            "emergency": 2.07,
-            "emergency_trend": "No Change",
-            "hsa": "Deaf Smith, TX - Parmer, TX",
-            "date": "2026-09-05"
-          },
-          "48383": {
-            "name": "Reagan",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
-          },
-          "48387": {
-            "name": "Red River",
-            "emergency": 1.49,
-            "emergency_trend": "No Change",
-            "hsa": "Lamar, TX - Red River, TX",
-            "date": "2026-09-05"
-          },
-          "48389": {
-            "name": "Reeves",
-            "emergency": 0.72,
-            "emergency_trend": "No Change",
-            "hsa": "Ector (Odessa), TX - Reeves, TX",
-            "date": "2026-09-05"
-          },
-          "48399": {
-            "name": "Runnels",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
-          },
-          "48403": {
-            "name": "Sabine",
-            "emergency": 1.07,
-            "emergency_trend": "No Change",
-            "hsa": "Nacogdoches, TX - Shelby, TX",
-            "date": "2026-09-05"
-          },
-          "48419": {
-            "name": "Shelby",
-            "emergency": 1.07,
-            "emergency_trend": "No Change",
-            "hsa": "Nacogdoches, TX - Shelby, TX",
-            "date": "2026-09-05"
-          },
-          "48423": {
-            "name": "Smith",
-            "emergency": 1.24,
-            "emergency_trend": "No Change",
-            "hsa": "Smith (Tyler), TX - Henderson, TX",
-            "date": "2026-09-05"
-          },
-          "48443": {
-            "name": "Terrell",
-            "emergency": 1.39,
-            "emergency_trend": "No Change",
-            "hsa": "Midland (Midland), TX - Pecos, TX",
-            "date": "2026-09-05"
-          },
-          "48447": {
-            "name": "Throckmorton",
-            "emergency": 0.35,
-            "emergency_trend": "No Change",
-            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
-            "date": "2026-09-05"
-          },
-          "48459": {
-            "name": "Upshur",
-            "emergency": 1.79,
-            "emergency_trend": "No Change",
-            "hsa": "Gregg (Longview), TX - Rusk, TX",
-            "date": "2026-09-05"
-          },
-          "48465": {
-            "name": "Val Verde",
-            "emergency": 4.82,
-            "emergency_trend": "No Change",
-            "hsa": "Maverick, TX - Val Verde, TX",
-            "date": "2026-09-05"
-          },
-          "48469": {
-            "name": "Victoria",
-            "emergency": 1.9,
-            "emergency_trend": "Increasing",
-            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
-            "date": "2026-09-05"
-          },
-          "48471": {
-            "name": "Walker",
-            "emergency": 1.36,
-            "emergency_trend": "Increasing",
-            "hsa": "Angelina, TX - Walker, TX",
-            "date": "2026-09-05"
-          },
-          "48507": {
-            "name": "Zavala",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
           "48000": {
             "name": "All",
-            "emergency": 1.56,
+            "emergency": 1.54,
             "emergency_trend": "Increasing",
             "hsa": "All",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "48005": {
             "name": "Angelina",
-            "emergency": 1.36,
+            "emergency": 1.7,
             "emergency_trend": "Increasing",
             "hsa": "Angelina, TX - Walker, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48011": {
-            "name": "Armstrong",
-            "emergency": 1.9,
+          "48013": {
+            "name": "Atascosa",
+            "emergency": 2.24,
             "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
           },
-          "48021": {
-            "name": "Bastrop",
-            "emergency": 1.03,
-            "emergency_trend": "Increasing",
-            "hsa": "Travis (Austin), TX - Williamson, TX",
-            "date": "2026-09-05"
-          },
-          "48033": {
-            "name": "Borden",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48037": {
-            "name": "Bowie",
-            "emergency": 1.98,
-            "emergency_trend": "Increasing",
-            "hsa": "Bowie (Texarkana), TX",
-            "date": "2026-09-05"
-          },
-          "48039": {
-            "name": "Brazoria",
-            "emergency": 1.91,
-            "emergency_trend": "No Change",
-            "hsa": "Brazoria (Lake Jackson), TX - Wharton, TX",
-            "date": "2026-09-05"
-          },
-          "48041": {
-            "name": "Brazos",
-            "emergency": 1.23,
-            "emergency_trend": "Increasing",
-            "hsa": "Brazos (Bryan), TX - Washington, TX",
-            "date": "2026-09-05"
-          },
-          "48047": {
-            "name": "Brooks",
-            "emergency": 1.7,
-            "emergency_trend": "No Change",
-            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
-            "date": "2026-09-05"
-          },
-          "48067": {
-            "name": "Cass",
-            "emergency": 2.49,
-            "emergency_trend": "Increasing",
-            "hsa": "Harrison (Marshall), TX - Cass, TX",
-            "date": "2026-09-05"
-          },
-          "48069": {
-            "name": "Castro",
-            "emergency": 1.15,
-            "emergency_trend": "No Change",
-            "hsa": "Hale, TX - Castro, TX",
-            "date": "2026-09-05"
-          },
-          "48071": {
-            "name": "Chambers",
-            "emergency": 1.25,
-            "emergency_trend": "Increasing",
+          "48015": {
+            "name": "Austin",
+            "emergency": 1.1,
+            "emergency_trend": "Decreasing",
             "hsa": "Harris (Houston), TX - Fort Bend, TX",
-            "date": "2026-09-05"
-          },
-          "48075": {
-            "name": "Childress",
-            "emergency": 1.17,
-            "emergency_trend": "No Change",
-            "hsa": "Childress, TX - Hall, TX",
-            "date": "2026-09-05"
-          },
-          "48081": {
-            "name": "Coke",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
-          },
-          "48089": {
-            "name": "Colorado",
-            "emergency": 0.82,
-            "emergency_trend": "No Change",
-            "hsa": "Fayette, TX - Colorado, TX",
-            "date": "2026-09-05"
-          },
-          "48095": {
-            "name": "Concho",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
-          },
-          "48103": {
-            "name": "Crane",
-            "emergency": 0.72,
-            "emergency_trend": "No Change",
-            "hsa": "Ector (Odessa), TX - Reeves, TX",
-            "date": "2026-09-05"
-          },
-          "48127": {
-            "name": "Dimmit",
-            "emergency": 3.79,
-            "emergency_trend": "No Change",
-            "hsa": "Dimmit, TX",
-            "date": "2026-09-05"
-          },
-          "48131": {
-            "name": "Duval",
-            "emergency": 1.7,
-            "emergency_trend": "No Change",
-            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
-            "date": "2026-09-05"
-          },
-          "48139": {
-            "name": "Ellis",
-            "emergency": 1.15,
-            "emergency_trend": "Increasing",
-            "hsa": "Dallas (Dallas), TX - Collin, TX",
-            "date": "2026-09-05"
-          },
-          "48145": {
-            "name": "Falls",
-            "emergency": 1.38,
-            "emergency_trend": "No Change",
-            "hsa": "McLennan (Waco), TX - Hill, TX",
-            "date": "2026-09-05"
-          },
-          "48149": {
-            "name": "Fayette",
-            "emergency": 0.82,
-            "emergency_trend": "No Change",
-            "hsa": "Fayette, TX - Colorado, TX",
-            "date": "2026-09-05"
-          },
-          "48151": {
-            "name": "Fisher",
-            "emergency": 0.31,
-            "emergency_trend": "No Change",
-            "hsa": "Nolan, TX - Mitchell, TX",
-            "date": "2026-09-05"
-          },
-          "48275": {
-            "name": "Knox",
-            "emergency": 0.35,
-            "emergency_trend": "No Change",
-            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
-            "date": "2026-09-05"
-          },
-          "48279": {
-            "name": "Lamb",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48281": {
-            "name": "Lampasas",
-            "emergency": 0.58,
-            "emergency_trend": "No Change",
-            "hsa": "Bell (Killeen), TX - Coryell, TX",
-            "date": "2026-09-05"
-          },
-          "48315": {
-            "name": "Marion",
-            "emergency": 2.49,
-            "emergency_trend": "Increasing",
-            "hsa": "Harrison (Marshall), TX - Cass, TX",
-            "date": "2026-09-05"
-          },
-          "48307": {
-            "name": "McCulloch",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
-          },
-          "48311": {
-            "name": "McMullen",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
-          "48329": {
-            "name": "Midland",
-            "emergency": 1.39,
-            "emergency_trend": "No Change",
-            "hsa": "Midland (Midland), TX - Pecos, TX",
-            "date": "2026-09-05"
-          },
-          "48347": {
-            "name": "Nacogdoches",
-            "emergency": 1.07,
-            "emergency_trend": "No Change",
-            "hsa": "Nacogdoches, TX - Shelby, TX",
-            "date": "2026-09-05"
-          },
-          "48349": {
-            "name": "Navarro",
-            "emergency": 2.75,
-            "emergency_trend": "Increasing",
-            "hsa": "Navarro, TX - Freestone, TX",
-            "date": "2026-09-05"
-          },
-          "48361": {
-            "name": "Orange",
-            "emergency": 3.69,
-            "emergency_trend": "Increasing",
-            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
-            "date": "2026-09-05"
-          },
-          "48385": {
-            "name": "Real",
-            "emergency": 1.14,
-            "emergency_trend": "No Change",
-            "hsa": "Kerr, TX - Gillespie, TX",
-            "date": "2026-09-05"
-          },
-          "48393": {
-            "name": "Roberts",
-            "emergency": 0.04,
-            "emergency_trend": "No Change",
-            "hsa": "Gray, TX - Wheeler, TX",
-            "date": "2026-09-05"
-          },
-          "48401": {
-            "name": "Rusk",
-            "emergency": 1.79,
-            "emergency_trend": "No Change",
-            "hsa": "Gregg (Longview), TX - Rusk, TX",
-            "date": "2026-09-05"
-          },
-          "48425": {
-            "name": "Somervell",
-            "emergency": 1.86,
-            "emergency_trend": "Increasing",
-            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
-            "date": "2026-09-05"
-          },
-          "48427": {
-            "name": "Starr",
-            "emergency": 5.5,
-            "emergency_trend": "Increasing",
-            "hsa": "Hidalgo (Mcallen), TX - Starr, TX",
-            "date": "2026-09-05"
-          },
-          "48429": {
-            "name": "Stephens",
-            "emergency": 0.74,
-            "emergency_trend": "No Change",
-            "hsa": "Taylor (Abilene), TX - Jones, TX",
-            "date": "2026-09-05"
-          },
-          "48467": {
-            "name": "Van Zandt",
-            "emergency": 1.24,
-            "emergency_trend": "No Change",
-            "hsa": "Smith (Tyler), TX - Henderson, TX",
-            "date": "2026-09-05"
-          },
-          "48483": {
-            "name": "Wheeler",
-            "emergency": 0.04,
-            "emergency_trend": "No Change",
-            "hsa": "Gray, TX - Wheeler, TX",
-            "date": "2026-09-05"
-          },
-          "48489": {
-            "name": "Willacy",
-            "emergency": 3.91,
-            "emergency_trend": "No Change",
-            "hsa": "Cameron (Brownsville), TX - Willacy, TX",
-            "date": "2026-09-05"
-          },
-          "48491": {
-            "name": "Williamson",
-            "emergency": 1.03,
-            "emergency_trend": "Increasing",
-            "hsa": "Travis (Austin), TX - Williamson, TX",
-            "date": "2026-09-05"
-          },
-          "48495": {
-            "name": "Winkler",
-            "emergency": 0.72,
-            "emergency_trend": "No Change",
-            "hsa": "Ector (Odessa), TX - Reeves, TX",
-            "date": "2026-09-05"
-          },
-          "48503": {
-            "name": "Young",
-            "emergency": 0.35,
-            "emergency_trend": "No Change",
-            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
-            "date": "2026-09-05"
-          },
-          "48505": {
-            "name": "Zapata",
-            "emergency": 6.55,
-            "emergency_trend": "No Change",
-            "hsa": "Webb (Laredo), TX - Zapata, TX",
-            "date": "2026-09-05"
-          },
-          "48001": {
-            "name": "Anderson",
-            "emergency": 0.9,
-            "emergency_trend": "No Change",
-            "hsa": "Anderson, TX - Cherokee, TX",
-            "date": "2026-09-05"
-          },
-          "48003": {
-            "name": "Andrews",
-            "emergency": 0.29,
-            "emergency_trend": "No Change",
-            "hsa": "Gaines, TX - Andrews, TX",
-            "date": "2026-09-05"
-          },
-          "48007": {
-            "name": "Aransas",
-            "emergency": 1.7,
-            "emergency_trend": "No Change",
-            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
-            "date": "2026-09-05"
-          },
-          "48023": {
-            "name": "Baylor",
-            "emergency": 0.35,
-            "emergency_trend": "No Change",
-            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
-            "date": "2026-09-05"
-          },
-          "48029": {
-            "name": "Bexar",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "48031": {
             "name": "Blanco",
-            "emergency": 1.14,
+            "emergency": 1.15,
             "emergency_trend": "No Change",
             "hsa": "Kerr, TX - Gillespie, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48053": {
-            "name": "Burnet",
-            "emergency": 1.03,
-            "emergency_trend": "Increasing",
-            "hsa": "Travis (Austin), TX - Williamson, TX",
-            "date": "2026-09-05"
-          },
-          "48055": {
-            "name": "Caldwell",
-            "emergency": 2.5,
-            "emergency_trend": "Increasing",
-            "hsa": "Hays (San Marcos), TX - Caldwell, TX",
-            "date": "2026-09-05"
-          },
-          "48057": {
-            "name": "Calhoun",
-            "emergency": 1.9,
-            "emergency_trend": "Increasing",
-            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
-            "date": "2026-09-05"
-          },
-          "48061": {
-            "name": "Cameron",
-            "emergency": 3.91,
+          "48039": {
+            "name": "Brazoria",
+            "emergency": 1.46,
             "emergency_trend": "No Change",
-            "hsa": "Cameron (Brownsville), TX - Willacy, TX",
-            "date": "2026-09-05"
+            "hsa": "Brazoria (Lake Jackson), TX - Wharton, TX",
+            "date": "2026-09-12"
           },
-          "48065": {
-            "name": "Carson",
-            "emergency": 1.9,
+          "48059": {
+            "name": "Callahan",
+            "emergency": 0.84,
             "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-09-12"
+          },
+          "48063": {
+            "name": "Camp",
+            "emergency": 2.71,
+            "emergency_trend": "Increasing",
+            "hsa": "Titus, TX - Morris, TX",
+            "date": "2026-09-12"
+          },
+          "48085": {
+            "name": "Collin",
+            "emergency": 1.0,
+            "emergency_trend": "No Change",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-09-12"
           },
           "48091": {
             "name": "Comal",
-            "emergency": 1.86,
+            "emergency": 2.31,
             "emergency_trend": "Increasing",
             "hsa": "Comal, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48101": {
-            "name": "Cottle",
-            "emergency": 1.17,
+          "48093": {
+            "name": "Comanche",
+            "emergency": 1.87,
             "emergency_trend": "No Change",
-            "hsa": "Childress, TX - Hall, TX",
-            "date": "2026-09-05"
+            "hsa": "Erath, TX - Comanche, TX",
+            "date": "2026-09-12"
+          },
+          "48111": {
+            "name": "Dallam",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
           },
           "48115": {
             "name": "Dawson",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
             "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48119": {
-            "name": "Delta",
-            "emergency": 1.49,
-            "emergency_trend": "No Change",
-            "hsa": "Lamar, TX - Red River, TX",
-            "date": "2026-09-05"
-          },
-          "48133": {
-            "name": "Eastland",
-            "emergency": 0.74,
-            "emergency_trend": "No Change",
-            "hsa": "Taylor (Abilene), TX - Jones, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "48135": {
             "name": "Ector",
-            "emergency": 0.72,
+            "emergency": 0.78,
             "emergency_trend": "No Change",
             "hsa": "Ector (Odessa), TX - Reeves, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48137": {
-            "name": "Edwards",
-            "emergency": 1.14,
+          "48141": {
+            "name": "El Paso",
+            "emergency": 1.03,
+            "emergency_trend": "Decreasing",
+            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
+            "date": "2026-09-12"
+          },
+          "48145": {
+            "name": "Falls",
+            "emergency": 1.36,
             "emergency_trend": "No Change",
-            "hsa": "Kerr, TX - Gillespie, TX",
-            "date": "2026-09-05"
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-09-12"
           },
           "48153": {
             "name": "Floyd",
-            "emergency": 1.15,
+            "emergency": 0.82,
             "emergency_trend": "No Change",
             "hsa": "Hale, TX - Castro, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48165": {
-            "name": "Gaines",
-            "emergency": 0.29,
+          "48155": {
+            "name": "Foard",
+            "emergency": 3.37,
+            "emergency_trend": "Increasing",
+            "hsa": "Wilbarger, TX - Hardeman, TX",
+            "date": "2026-09-12"
+          },
+          "48171": {
+            "name": "Gillespie",
+            "emergency": 1.15,
             "emergency_trend": "No Change",
-            "hsa": "Gaines, TX - Andrews, TX",
-            "date": "2026-09-05"
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-09-12"
+          },
+          "48179": {
+            "name": "Gray",
+            "emergency": 0.21,
+            "emergency_trend": "No Change",
+            "hsa": "Gray, TX - Wheeler, TX",
+            "date": "2026-09-12"
+          },
+          "48229": {
+            "name": "Hudspeth",
+            "emergency": 1.03,
+            "emergency_trend": "Decreasing",
+            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
+            "date": "2026-09-12"
+          },
+          "48235": {
+            "name": "Irion",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48237": {
+            "name": "Jack",
+            "emergency": 0.05,
+            "emergency_trend": "No Change",
+            "hsa": "Palo Pinto, TX - Jack, TX",
+            "date": "2026-09-12"
+          },
+          "48241": {
+            "name": "Jasper",
+            "emergency": 2.22,
+            "emergency_trend": "Decreasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-09-12"
+          },
+          "48247": {
+            "name": "Jim Hogg",
+            "emergency": 4.15,
+            "emergency_trend": "Decreasing",
+            "hsa": "Webb (Laredo), TX - Zapata, TX",
+            "date": "2026-09-12"
+          },
+          "48253": {
+            "name": "Jones",
+            "emergency": 0.84,
+            "emergency_trend": "No Change",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-09-12"
+          },
+          "48255": {
+            "name": "Karnes",
+            "emergency": 2.61,
+            "emergency_trend": "No Change",
+            "hsa": "Bee, TX - Karnes, TX",
+            "date": "2026-09-12"
+          },
+          "48263": {
+            "name": "Kent",
+            "emergency": 0.84,
+            "emergency_trend": "No Change",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-09-12"
+          },
+          "48267": {
+            "name": "Kimble",
+            "emergency": 1.15,
+            "emergency_trend": "No Change",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-09-12"
+          },
+          "48273": {
+            "name": "Kleberg",
+            "emergency": 1.37,
+            "emergency_trend": "Decreasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-09-12"
+          },
+          "48281": {
+            "name": "Lampasas",
+            "emergency": 0.37,
+            "emergency_trend": "No Change",
+            "hsa": "Bell (Killeen), TX - Coryell, TX",
+            "date": "2026-09-12"
+          },
+          "48285": {
+            "name": "Lavaca",
+            "emergency": 1.54,
+            "emergency_trend": "No Change",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-09-12"
+          },
+          "48301": {
+            "name": "Loving",
+            "emergency": 1.03,
+            "emergency_trend": "Decreasing",
+            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
+            "date": "2026-09-12"
+          },
+          "48317": {
+            "name": "Martin",
+            "emergency": 1.71,
+            "emergency_trend": "No Change",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-09-12"
+          },
+          "48309": {
+            "name": "McLennan",
+            "emergency": 1.36,
+            "emergency_trend": "No Change",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-09-12"
+          },
+          "48329": {
+            "name": "Midland",
+            "emergency": 1.71,
+            "emergency_trend": "No Change",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-09-12"
+          },
+          "48335": {
+            "name": "Mitchell",
+            "emergency": 0.32,
+            "emergency_trend": "No Change",
+            "hsa": "Nolan, TX - Mitchell, TX",
+            "date": "2026-09-12"
+          },
+          "48339": {
+            "name": "Montgomery",
+            "emergency": 1.1,
+            "emergency_trend": "Decreasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-09-12"
+          },
+          "48357": {
+            "name": "Ochiltree",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48359": {
+            "name": "Oldham",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48375": {
+            "name": "Potter",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48381": {
+            "name": "Randall",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48391": {
+            "name": "Refugio",
+            "emergency": 1.54,
+            "emergency_trend": "No Change",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-09-12"
+          },
+          "48395": {
+            "name": "Robertson",
+            "emergency": 1.26,
+            "emergency_trend": "No Change",
+            "hsa": "Brazos (Bryan), TX - Washington, TX",
+            "date": "2026-09-12"
+          },
+          "48403": {
+            "name": "Sabine",
+            "emergency": 1.24,
+            "emergency_trend": "No Change",
+            "hsa": "Nacogdoches, TX - Shelby, TX",
+            "date": "2026-09-12"
+          },
+          "48405": {
+            "name": "San Augustine",
+            "emergency": 1.24,
+            "emergency_trend": "No Change",
+            "hsa": "Nacogdoches, TX - Shelby, TX",
+            "date": "2026-09-12"
+          },
+          "48423": {
+            "name": "Smith",
+            "emergency": 1.16,
+            "emergency_trend": "No Change",
+            "hsa": "Smith (Tyler), TX - Henderson, TX",
+            "date": "2026-09-12"
+          },
+          "48449": {
+            "name": "Titus",
+            "emergency": 2.71,
+            "emergency_trend": "Increasing",
+            "hsa": "Titus, TX - Morris, TX",
+            "date": "2026-09-12"
+          },
+          "48459": {
+            "name": "Upshur",
+            "emergency": 1.56,
+            "emergency_trend": "No Change",
+            "hsa": "Gregg (Longview), TX - Rusk, TX",
+            "date": "2026-09-12"
+          },
+          "48473": {
+            "name": "Waller",
+            "emergency": 1.1,
+            "emergency_trend": "Decreasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-09-12"
+          },
+          "48483": {
+            "name": "Wheeler",
+            "emergency": 0.21,
+            "emergency_trend": "No Change",
+            "hsa": "Gray, TX - Wheeler, TX",
+            "date": "2026-09-12"
+          },
+          "48487": {
+            "name": "Wilbarger",
+            "emergency": 3.37,
+            "emergency_trend": "Increasing",
+            "hsa": "Wilbarger, TX - Hardeman, TX",
+            "date": "2026-09-12"
+          },
+          "48493": {
+            "name": "Wilson",
+            "emergency": 2.24,
+            "emergency_trend": "No Change",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
+          },
+          "48507": {
+            "name": "Zavala",
+            "emergency": 2.24,
+            "emergency_trend": "No Change",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
+          },
+          "48337": {
+            "name": "Montague",
+            "emergency": 0.38,
+            "emergency_trend": "No Change",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-09-12"
+          },
+          "48343": {
+            "name": "Morris",
+            "emergency": 2.71,
+            "emergency_trend": "Increasing",
+            "hsa": "Titus, TX - Morris, TX",
+            "date": "2026-09-12"
+          },
+          "48347": {
+            "name": "Nacogdoches",
+            "emergency": 1.24,
+            "emergency_trend": "No Change",
+            "hsa": "Nacogdoches, TX - Shelby, TX",
+            "date": "2026-09-12"
+          },
+          "48349": {
+            "name": "Navarro",
+            "emergency": 2.76,
+            "emergency_trend": "No Change",
+            "hsa": "Navarro, TX - Freestone, TX",
+            "date": "2026-09-12"
+          },
+          "48351": {
+            "name": "Newton",
+            "emergency": 2.22,
+            "emergency_trend": "Decreasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-09-12"
+          },
+          "48367": {
+            "name": "Parker",
+            "emergency": 1.49,
+            "emergency_trend": "Decreasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-09-12"
+          },
+          "48371": {
+            "name": "Pecos",
+            "emergency": 1.71,
+            "emergency_trend": "No Change",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-09-12"
+          },
+          "48373": {
+            "name": "Polk",
+            "emergency": 1.7,
+            "emergency_trend": "Increasing",
+            "hsa": "Angelina, TX - Walker, TX",
+            "date": "2026-09-12"
+          },
+          "48383": {
+            "name": "Reagan",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48387": {
+            "name": "Red River",
+            "emergency": 1.01,
+            "emergency_trend": "No Change",
+            "hsa": "Lamar, TX - Red River, TX",
+            "date": "2026-09-12"
+          },
+          "48413": {
+            "name": "Schleicher",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48421": {
+            "name": "Sherman",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48429": {
+            "name": "Stephens",
+            "emergency": 0.84,
+            "emergency_trend": "No Change",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-09-12"
+          },
+          "48431": {
+            "name": "Sterling",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48441": {
+            "name": "Taylor",
+            "emergency": 0.84,
+            "emergency_trend": "No Change",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-09-12"
+          },
+          "48451": {
+            "name": "Tom Green",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48457": {
+            "name": "Tyler",
+            "emergency": 2.22,
+            "emergency_trend": "Decreasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-09-12"
+          },
+          "48461": {
+            "name": "Upton",
+            "emergency": 1.71,
+            "emergency_trend": "No Change",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-09-12"
+          },
+          "48467": {
+            "name": "Van Zandt",
+            "emergency": 1.16,
+            "emergency_trend": "No Change",
+            "hsa": "Smith (Tyler), TX - Henderson, TX",
+            "date": "2026-09-12"
+          },
+          "48469": {
+            "name": "Victoria",
+            "emergency": 1.54,
+            "emergency_trend": "No Change",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-09-12"
+          },
+          "48481": {
+            "name": "Wharton",
+            "emergency": 1.46,
+            "emergency_trend": "No Change",
+            "hsa": "Brazoria (Lake Jackson), TX - Wharton, TX",
+            "date": "2026-09-12"
+          },
+          "48485": {
+            "name": "Wichita",
+            "emergency": 0.38,
+            "emergency_trend": "No Change",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-09-12"
+          },
+          "48497": {
+            "name": "Wise",
+            "emergency": 1.05,
+            "emergency_trend": "Increasing",
+            "hsa": "Denton (Denton), TX - Wise, TX",
+            "date": "2026-09-12"
+          },
+          "48001": {
+            "name": "Anderson",
+            "emergency": 0.92,
+            "emergency_trend": "No Change",
+            "hsa": "Anderson, TX - Cherokee, TX",
+            "date": "2026-09-12"
+          },
+          "48017": {
+            "name": "Bailey",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
+          },
+          "48019": {
+            "name": "Bandera",
+            "emergency": 2.24,
+            "emergency_trend": "No Change",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
+          },
+          "48023": {
+            "name": "Baylor",
+            "emergency": 0.38,
+            "emergency_trend": "No Change",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-09-12"
+          },
+          "48025": {
+            "name": "Bee",
+            "emergency": 2.61,
+            "emergency_trend": "No Change",
+            "hsa": "Bee, TX - Karnes, TX",
+            "date": "2026-09-12"
+          },
+          "48027": {
+            "name": "Bell",
+            "emergency": 0.37,
+            "emergency_trend": "No Change",
+            "hsa": "Bell (Killeen), TX - Coryell, TX",
+            "date": "2026-09-12"
+          },
+          "48033": {
+            "name": "Borden",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
+          },
+          "48035": {
+            "name": "Bosque",
+            "emergency": 1.36,
+            "emergency_trend": "No Change",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-09-12"
+          },
+          "48037": {
+            "name": "Bowie",
+            "emergency": 2.01,
+            "emergency_trend": "Increasing",
+            "hsa": "Bowie (Texarkana), TX",
+            "date": "2026-09-12"
+          },
+          "48045": {
+            "name": "Briscoe",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48055": {
+            "name": "Caldwell",
+            "emergency": 1.99,
+            "emergency_trend": "No Change",
+            "hsa": "Hays (San Marcos), TX - Caldwell, TX",
+            "date": "2026-09-12"
+          },
+          "48061": {
+            "name": "Cameron",
+            "emergency": 2.83,
+            "emergency_trend": "Decreasing",
+            "hsa": "Cameron (Brownsville), TX - Willacy, TX",
+            "date": "2026-09-12"
+          },
+          "48069": {
+            "name": "Castro",
+            "emergency": 0.82,
+            "emergency_trend": "No Change",
+            "hsa": "Hale, TX - Castro, TX",
+            "date": "2026-09-12"
+          },
+          "48075": {
+            "name": "Childress",
+            "emergency": 4.31,
+            "emergency_trend": "Increasing",
+            "hsa": "Childress, TX - Hall, TX",
+            "date": "2026-09-12"
+          },
+          "48077": {
+            "name": "Clay",
+            "emergency": 0.38,
+            "emergency_trend": "No Change",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-09-12"
+          },
+          "48081": {
+            "name": "Coke",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48103": {
+            "name": "Crane",
+            "emergency": 0.78,
+            "emergency_trend": "No Change",
+            "hsa": "Ector (Odessa), TX - Reeves, TX",
+            "date": "2026-09-12"
+          },
+          "48113": {
+            "name": "Dallas",
+            "emergency": 1.0,
+            "emergency_trend": "No Change",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-09-12"
+          },
+          "48117": {
+            "name": "Deaf Smith",
+            "emergency": 1.69,
+            "emergency_trend": "No Change",
+            "hsa": "Deaf Smith, TX - Parmer, TX",
+            "date": "2026-09-12"
+          },
+          "48125": {
+            "name": "Dickens",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
+          },
+          "48127": {
+            "name": "Dimmit",
+            "emergency": 4.66,
+            "emergency_trend": "No Change",
+            "hsa": "Dimmit, TX",
+            "date": "2026-09-12"
+          },
+          "48131": {
+            "name": "Duval",
+            "emergency": 1.37,
+            "emergency_trend": "Decreasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-09-12"
+          },
+          "48137": {
+            "name": "Edwards",
+            "emergency": 1.15,
+            "emergency_trend": "No Change",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-09-12"
+          },
+          "48139": {
+            "name": "Ellis",
+            "emergency": 1.0,
+            "emergency_trend": "No Change",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-09-12"
+          },
+          "48143": {
+            "name": "Erath",
+            "emergency": 1.87,
+            "emergency_trend": "No Change",
+            "hsa": "Erath, TX - Comanche, TX",
+            "date": "2026-09-12"
+          },
+          "48169": {
+            "name": "Garza",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
           },
           "48173": {
             "name": "Glasscock",
             "emergency": 0.01,
             "emergency_trend": "Limited Data",
             "hsa": "Howard, TX - Glasscock, TX",
-            "date": "2026-09-05"
-          },
-          "48177": {
-            "name": "Gonzales",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
-          "48183": {
-            "name": "Gregg",
-            "emergency": 1.79,
-            "emergency_trend": "No Change",
-            "hsa": "Gregg (Longview), TX - Rusk, TX",
-            "date": "2026-09-05"
-          },
-          "48187": {
-            "name": "Guadalupe",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
-          "48191": {
-            "name": "Hall",
-            "emergency": 1.17,
-            "emergency_trend": "No Change",
-            "hsa": "Childress, TX - Hall, TX",
-            "date": "2026-09-05"
-          },
-          "48195": {
-            "name": "Hansford",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48205": {
-            "name": "Hartley",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48209": {
-            "name": "Hays",
-            "emergency": 2.5,
-            "emergency_trend": "Increasing",
-            "hsa": "Hays (San Marcos), TX - Caldwell, TX",
-            "date": "2026-09-05"
-          },
-          "48213": {
-            "name": "Henderson",
-            "emergency": 1.24,
-            "emergency_trend": "No Change",
-            "hsa": "Smith (Tyler), TX - Henderson, TX",
-            "date": "2026-09-05"
-          },
-          "48223": {
-            "name": "Hopkins",
-            "emergency": 1.15,
-            "emergency_trend": "Increasing",
-            "hsa": "Dallas (Dallas), TX - Collin, TX",
-            "date": "2026-09-05"
-          },
-          "48229": {
-            "name": "Hudspeth",
-            "emergency": 1.17,
-            "emergency_trend": "No Change",
-            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
-            "date": "2026-09-05"
-          },
-          "48251": {
-            "name": "Johnson",
-            "emergency": 1.86,
-            "emergency_trend": "Increasing",
-            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
-            "date": "2026-09-05"
-          },
-          "48257": {
-            "name": "Kaufman",
-            "emergency": 1.15,
-            "emergency_trend": "Increasing",
-            "hsa": "Dallas (Dallas), TX - Collin, TX",
-            "date": "2026-09-05"
-          },
-          "48261": {
-            "name": "Kenedy",
-            "emergency": 1.7,
-            "emergency_trend": "No Change",
-            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
-            "date": "2026-09-05"
-          },
-          "48015": {
-            "name": "Austin",
-            "emergency": 1.25,
-            "emergency_trend": "Increasing",
-            "hsa": "Harris (Houston), TX - Fort Bend, TX",
-            "date": "2026-09-05"
-          },
-          "48017": {
-            "name": "Bailey",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48019": {
-            "name": "Bandera",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
-            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
-          },
-          "48025": {
-            "name": "Bee",
-            "emergency": 2.73,
-            "emergency_trend": "No Change",
-            "hsa": "Bee, TX - Karnes, TX",
-            "date": "2026-09-05"
-          },
-          "48043": {
-            "name": "Brewster",
-            "emergency": 1.35,
-            "emergency_trend": "Limited Data",
-            "hsa": "Brewster, TX - Presidio, TX",
-            "date": "2026-09-05"
-          },
-          "48051": {
-            "name": "Burleson",
-            "emergency": 1.23,
-            "emergency_trend": "Increasing",
-            "hsa": "Brazos (Bryan), TX - Washington, TX",
-            "date": "2026-09-05"
-          },
-          "48079": {
-            "name": "Cochran",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48093": {
-            "name": "Comanche",
-            "emergency": 1.77,
-            "emergency_trend": "No Change",
-            "hsa": "Erath, TX - Comanche, TX",
-            "date": "2026-09-05"
-          },
-          "48099": {
-            "name": "Coryell",
-            "emergency": 0.58,
-            "emergency_trend": "No Change",
-            "hsa": "Bell (Killeen), TX - Coryell, TX",
-            "date": "2026-09-05"
-          },
-          "48109": {
-            "name": "Culberson",
-            "emergency": 1.17,
-            "emergency_trend": "No Change",
-            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
-            "date": "2026-09-05"
-          },
-          "48123": {
-            "name": "DeWitt",
-            "emergency": 1.9,
-            "emergency_trend": "Increasing",
-            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
-            "date": "2026-09-05"
-          },
-          "48117": {
-            "name": "Deaf Smith",
-            "emergency": 2.07,
-            "emergency_trend": "No Change",
-            "hsa": "Deaf Smith, TX - Parmer, TX",
-            "date": "2026-09-05"
-          },
-          "48121": {
-            "name": "Denton",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Denton (Denton), TX - Wise, TX",
-            "date": "2026-09-05"
-          },
-          "48125": {
-            "name": "Dickens",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48129": {
-            "name": "Donley",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48161": {
-            "name": "Freestone",
-            "emergency": 2.75,
-            "emergency_trend": "Increasing",
-            "hsa": "Navarro, TX - Freestone, TX",
-            "date": "2026-09-05"
-          },
-          "48169": {
-            "name": "Garza",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "48185": {
             "name": "Grimes",
-            "emergency": 1.23,
-            "emergency_trend": "Increasing",
-            "hsa": "Brazos (Bryan), TX - Washington, TX",
-            "date": "2026-09-05"
-          },
-          "48219": {
-            "name": "Hockley",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
-            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
-          },
-          "48225": {
-            "name": "Houston",
-            "emergency": 0.9,
+            "emergency": 1.26,
             "emergency_trend": "No Change",
-            "hsa": "Anderson, TX - Cherokee, TX",
-            "date": "2026-09-05"
+            "hsa": "Brazos (Bryan), TX - Washington, TX",
+            "date": "2026-09-12"
+          },
+          "48189": {
+            "name": "Hale",
+            "emergency": 0.82,
+            "emergency_trend": "No Change",
+            "hsa": "Hale, TX - Castro, TX",
+            "date": "2026-09-12"
+          },
+          "48195": {
+            "name": "Hansford",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48199": {
+            "name": "Hardin",
+            "emergency": 2.22,
+            "emergency_trend": "Decreasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-09-12"
+          },
+          "48205": {
+            "name": "Hartley",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48213": {
+            "name": "Henderson",
+            "emergency": 1.16,
+            "emergency_trend": "No Change",
+            "hsa": "Smith (Tyler), TX - Henderson, TX",
+            "date": "2026-09-12"
+          },
+          "48215": {
+            "name": "Hidalgo",
+            "emergency": 3.95,
+            "emergency_trend": "Decreasing",
+            "hsa": "Hidalgo (Mcallen), TX - Starr, TX",
+            "date": "2026-09-12"
+          },
+          "48223": {
+            "name": "Hopkins",
+            "emergency": 1.0,
+            "emergency_trend": "No Change",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-09-12"
+          },
+          "48227": {
+            "name": "Howard",
+            "emergency": 0.01,
+            "emergency_trend": "Limited Data",
+            "hsa": "Howard, TX - Glasscock, TX",
+            "date": "2026-09-12"
+          },
+          "48233": {
+            "name": "Hutchinson",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
           },
           "48239": {
             "name": "Jackson",
-            "emergency": 1.9,
-            "emergency_trend": "Increasing",
+            "emergency": 1.54,
+            "emergency_trend": "No Change",
             "hsa": "Victoria (Victoria), TX - Calhoun, TX",
-            "date": "2026-09-05"
-          },
-          "48243": {
-            "name": "Jeff Davis",
-            "emergency": 1.35,
-            "emergency_trend": "Limited Data",
-            "hsa": "Brewster, TX - Presidio, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "48245": {
             "name": "Jefferson",
-            "emergency": 3.69,
-            "emergency_trend": "Increasing",
+            "emergency": 2.22,
+            "emergency_trend": "Decreasing",
             "hsa": "Jefferson (Beaumont), TX - Orange, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48247": {
-            "name": "Jim Hogg",
-            "emergency": 6.55,
+          "48259": {
+            "name": "Kendall",
+            "emergency": 2.24,
             "emergency_trend": "No Change",
-            "hsa": "Webb (Laredo), TX - Zapata, TX",
-            "date": "2026-09-05"
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
           },
-          "48249": {
-            "name": "Jim Wells",
-            "emergency": 1.7,
+          "48283": {
+            "name": "La Salle",
+            "emergency": 2.24,
             "emergency_trend": "No Change",
-            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
-            "date": "2026-09-05"
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
           },
-          "48253": {
-            "name": "Jones",
-            "emergency": 0.74,
+          "48299": {
+            "name": "Llano",
+            "emergency": 0.91,
             "emergency_trend": "No Change",
-            "hsa": "Taylor (Abilene), TX - Jones, TX",
-            "date": "2026-09-05"
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-09-12"
           },
-          "48263": {
-            "name": "Kent",
-            "emergency": 0.74,
+          "48315": {
+            "name": "Marion",
+            "emergency": 2.14,
             "emergency_trend": "No Change",
-            "hsa": "Taylor (Abilene), TX - Jones, TX",
-            "date": "2026-09-05"
+            "hsa": "Harrison (Marshall), TX - Cass, TX",
+            "date": "2026-09-12"
           },
-          "48267": {
-            "name": "Kimble",
-            "emergency": 1.14,
+          "48325": {
+            "name": "Medina",
+            "emergency": 2.24,
             "emergency_trend": "No Change",
-            "hsa": "Kerr, TX - Gillespie, TX",
-            "date": "2026-09-05"
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
           },
-          "48269": {
-            "name": "King",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
+          "48277": {
+            "name": "Lamar",
+            "emergency": 1.01,
+            "emergency_trend": "No Change",
+            "hsa": "Lamar, TX - Red River, TX",
+            "date": "2026-09-12"
+          },
+          "48279": {
+            "name": "Lamb",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
             "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "48287": {
             "name": "Lee",
-            "emergency": 1.03,
-            "emergency_trend": "Increasing",
+            "emergency": 0.91,
+            "emergency_trend": "No Change",
             "hsa": "Travis (Austin), TX - Williamson, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
+          },
+          "48293": {
+            "name": "Limestone",
+            "emergency": 1.36,
+            "emergency_trend": "No Change",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-09-12"
           },
           "48297": {
             "name": "Live Oak",
-            "emergency": 1.7,
-            "emergency_trend": "No Change",
+            "emergency": 1.37,
+            "emergency_trend": "Decreasing",
             "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48313": {
-            "name": "Madison",
-            "emergency": 0.96,
+          "48305": {
+            "name": "Lynn",
+            "emergency": 1.51,
             "emergency_trend": "No Change",
-            "hsa": "Leon, TX - Madison, TX",
-            "date": "2026-09-05"
-          },
-          "48317": {
-            "name": "Martin",
-            "emergency": 1.39,
-            "emergency_trend": "No Change",
-            "hsa": "Midland (Midland), TX - Pecos, TX",
-            "date": "2026-09-05"
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
           },
           "48319": {
             "name": "Mason",
-            "emergency": 1.14,
+            "emergency": 1.15,
             "emergency_trend": "No Change",
             "hsa": "Kerr, TX - Gillespie, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
+          },
+          "48311": {
+            "name": "McMullen",
+            "emergency": 2.24,
+            "emergency_trend": "No Change",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
           },
           "48327": {
             "name": "Menard",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
-          },
-          "48335": {
-            "name": "Mitchell",
-            "emergency": 0.31,
+            "emergency": 0.94,
             "emergency_trend": "No Change",
-            "hsa": "Nolan, TX - Mitchell, TX",
-            "date": "2026-09-05"
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
           },
           "48345": {
             "name": "Motley",
-            "emergency": 1.55,
-            "emergency_trend": "Increasing",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
             "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48355": {
-            "name": "Nueces",
-            "emergency": 1.7,
+          "48361": {
+            "name": "Orange",
+            "emergency": 2.22,
+            "emergency_trend": "Decreasing",
+            "hsa": "Jefferson (Beaumont), TX - Orange, TX",
+            "date": "2026-09-12"
+          },
+          "48365": {
+            "name": "Panola",
+            "emergency": 1.56,
             "emergency_trend": "No Change",
-            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
-            "date": "2026-09-05"
+            "hsa": "Gregg (Longview), TX - Rusk, TX",
+            "date": "2026-09-12"
           },
-          "48357": {
-            "name": "Ochiltree",
-            "emergency": 1.9,
+          "48389": {
+            "name": "Reeves",
+            "emergency": 0.78,
             "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
+            "hsa": "Ector (Odessa), TX - Reeves, TX",
+            "date": "2026-09-12"
           },
-          "48371": {
-            "name": "Pecos",
-            "emergency": 1.39,
+          "48397": {
+            "name": "Rockwall",
+            "emergency": 1.0,
             "emergency_trend": "No Change",
-            "hsa": "Midland (Midland), TX - Pecos, TX",
-            "date": "2026-09-05"
-          },
-          "48373": {
-            "name": "Polk",
-            "emergency": 1.36,
-            "emergency_trend": "Increasing",
-            "hsa": "Angelina, TX - Walker, TX",
-            "date": "2026-09-05"
-          },
-          "48375": {
-            "name": "Potter",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48377": {
-            "name": "Presidio",
-            "emergency": 1.35,
-            "emergency_trend": "Limited Data",
-            "hsa": "Brewster, TX - Presidio, TX",
-            "date": "2026-09-05"
-          },
-          "48381": {
-            "name": "Randall",
-            "emergency": 1.9,
-            "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48407": {
-            "name": "San Jacinto",
-            "emergency": 1.25,
-            "emergency_trend": "Increasing",
-            "hsa": "Harris (Houston), TX - Fort Bend, TX",
-            "date": "2026-09-05"
-          },
-          "48409": {
-            "name": "San Patricio",
-            "emergency": 1.7,
-            "emergency_trend": "No Change",
-            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
-            "date": "2026-09-05"
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-09-12"
           },
           "48417": {
             "name": "Shackelford",
-            "emergency": 0.74,
+            "emergency": 0.84,
             "emergency_trend": "No Change",
             "hsa": "Taylor (Abilene), TX - Jones, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48421": {
-            "name": "Sherman",
-            "emergency": 1.9,
+          "48419": {
+            "name": "Shelby",
+            "emergency": 1.24,
             "emergency_trend": "No Change",
-            "hsa": "Potter (Amarillo), TX - Randall, TX",
-            "date": "2026-09-05"
-          },
-          "48431": {
-            "name": "Sterling",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
+            "hsa": "Nacogdoches, TX - Shelby, TX",
+            "date": "2026-09-12"
           },
           "48433": {
             "name": "Stonewall",
-            "emergency": 0.74,
+            "emergency": 0.84,
             "emergency_trend": "No Change",
             "hsa": "Taylor (Abilene), TX - Jones, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "48435": {
             "name": "Sutton",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
             "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48451": {
-            "name": "Tom Green",
-            "emergency": 1.09,
-            "emergency_trend": "Increasing",
-            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
-            "date": "2026-09-05"
+          "48447": {
+            "name": "Throckmorton",
+            "emergency": 0.38,
+            "emergency_trend": "No Change",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-09-12"
           },
           "48453": {
             "name": "Travis",
-            "emergency": 1.03,
-            "emergency_trend": "Increasing",
+            "emergency": 0.91,
+            "emergency_trend": "No Change",
             "hsa": "Travis (Austin), TX - Williamson, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "48455": {
             "name": "Trinity",
-            "emergency": 1.36,
+            "emergency": 1.7,
             "emergency_trend": "Increasing",
             "hsa": "Angelina, TX - Walker, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48461": {
-            "name": "Upton",
-            "emergency": 1.39,
-            "emergency_trend": "No Change",
-            "hsa": "Midland (Midland), TX - Pecos, TX",
-            "date": "2026-09-05"
-          },
-          "48463": {
-            "name": "Uvalde",
-            "emergency": 1.67,
-            "emergency_trend": "Decreasing",
-            "hsa": "Uvalde, TX",
-            "date": "2026-09-05"
-          },
-          "48473": {
-            "name": "Waller",
-            "emergency": 1.25,
+          "48471": {
+            "name": "Walker",
+            "emergency": 1.7,
             "emergency_trend": "Increasing",
-            "hsa": "Harris (Houston), TX - Fort Bend, TX",
-            "date": "2026-09-05"
+            "hsa": "Angelina, TX - Walker, TX",
+            "date": "2026-09-12"
           },
           "48477": {
             "name": "Washington",
-            "emergency": 1.23,
-            "emergency_trend": "Increasing",
+            "emergency": 1.26,
+            "emergency_trend": "No Change",
             "hsa": "Brazos (Bryan), TX - Washington, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
           "48479": {
             "name": "Webb",
-            "emergency": 6.55,
-            "emergency_trend": "No Change",
+            "emergency": 4.15,
+            "emergency_trend": "Decreasing",
             "hsa": "Webb (Laredo), TX - Zapata, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
           },
-          "48487": {
-            "name": "Wilbarger",
-            "emergency": 0.88,
+          "48495": {
+            "name": "Winkler",
+            "emergency": 0.78,
             "emergency_trend": "No Change",
-            "hsa": "Wilbarger, TX - Hardeman, TX",
-            "date": "2026-09-05"
+            "hsa": "Ector (Odessa), TX - Reeves, TX",
+            "date": "2026-09-12"
           },
-          "48493": {
-            "name": "Wilson",
-            "emergency": 2.59,
-            "emergency_trend": "Increasing",
+          "48499": {
+            "name": "Wood",
+            "emergency": 1.16,
+            "emergency_trend": "No Change",
+            "hsa": "Smith (Tyler), TX - Henderson, TX",
+            "date": "2026-09-12"
+          },
+          "48503": {
+            "name": "Young",
+            "emergency": 0.38,
+            "emergency_trend": "No Change",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-09-12"
+          },
+          "48007": {
+            "name": "Aransas",
+            "emergency": 1.37,
+            "emergency_trend": "Decreasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-09-12"
+          },
+          "48021": {
+            "name": "Bastrop",
+            "emergency": 0.91,
+            "emergency_trend": "No Change",
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-09-12"
+          },
+          "48029": {
+            "name": "Bexar",
+            "emergency": 2.24,
+            "emergency_trend": "No Change",
             "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
-            "date": "2026-09-05"
+            "date": "2026-09-12"
+          },
+          "48041": {
+            "name": "Brazos",
+            "emergency": 1.26,
+            "emergency_trend": "No Change",
+            "hsa": "Brazos (Bryan), TX - Washington, TX",
+            "date": "2026-09-12"
+          },
+          "48043": {
+            "name": "Brewster",
+            "emergency": 1.24,
+            "emergency_trend": "Limited Data",
+            "hsa": "Brewster, TX - Presidio, TX",
+            "date": "2026-09-12"
+          },
+          "48051": {
+            "name": "Burleson",
+            "emergency": 1.26,
+            "emergency_trend": "No Change",
+            "hsa": "Brazos (Bryan), TX - Washington, TX",
+            "date": "2026-09-12"
+          },
+          "48053": {
+            "name": "Burnet",
+            "emergency": 0.91,
+            "emergency_trend": "No Change",
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-09-12"
+          },
+          "48057": {
+            "name": "Calhoun",
+            "emergency": 1.54,
+            "emergency_trend": "No Change",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-09-12"
+          },
+          "48067": {
+            "name": "Cass",
+            "emergency": 2.14,
+            "emergency_trend": "No Change",
+            "hsa": "Harrison (Marshall), TX - Cass, TX",
+            "date": "2026-09-12"
+          },
+          "48071": {
+            "name": "Chambers",
+            "emergency": 1.1,
+            "emergency_trend": "Decreasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-09-12"
+          },
+          "48079": {
+            "name": "Cochran",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
+          },
+          "48089": {
+            "name": "Colorado",
+            "emergency": 1.23,
+            "emergency_trend": "No Change",
+            "hsa": "Fayette, TX - Colorado, TX",
+            "date": "2026-09-12"
+          },
+          "48095": {
+            "name": "Concho",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48101": {
+            "name": "Cottle",
+            "emergency": 4.31,
+            "emergency_trend": "Increasing",
+            "hsa": "Childress, TX - Hall, TX",
+            "date": "2026-09-12"
+          },
+          "48105": {
+            "name": "Crockett",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48107": {
+            "name": "Crosby",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
+          },
+          "48109": {
+            "name": "Culberson",
+            "emergency": 1.03,
+            "emergency_trend": "Decreasing",
+            "hsa": "El Paso (El Paso), TX - Hudspeth, TX",
+            "date": "2026-09-12"
+          },
+          "48123": {
+            "name": "DeWitt",
+            "emergency": 1.54,
+            "emergency_trend": "No Change",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-09-12"
+          },
+          "48119": {
+            "name": "Delta",
+            "emergency": 1.01,
+            "emergency_trend": "No Change",
+            "hsa": "Lamar, TX - Red River, TX",
+            "date": "2026-09-12"
+          },
+          "48129": {
+            "name": "Donley",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48149": {
+            "name": "Fayette",
+            "emergency": 1.23,
+            "emergency_trend": "No Change",
+            "hsa": "Fayette, TX - Colorado, TX",
+            "date": "2026-09-12"
+          },
+          "48151": {
+            "name": "Fisher",
+            "emergency": 0.32,
+            "emergency_trend": "No Change",
+            "hsa": "Nolan, TX - Mitchell, TX",
+            "date": "2026-09-12"
+          },
+          "48157": {
+            "name": "Fort Bend",
+            "emergency": 1.1,
+            "emergency_trend": "Decreasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-09-12"
+          },
+          "48159": {
+            "name": "Franklin",
+            "emergency": 2.71,
+            "emergency_trend": "Increasing",
+            "hsa": "Titus, TX - Morris, TX",
+            "date": "2026-09-12"
+          },
+          "48167": {
+            "name": "Galveston",
+            "emergency": 1.18,
+            "emergency_trend": "No Change",
+            "hsa": "Galveston, TX",
+            "date": "2026-09-12"
+          },
+          "48177": {
+            "name": "Gonzales",
+            "emergency": 2.24,
+            "emergency_trend": "No Change",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
+          },
+          "48187": {
+            "name": "Guadalupe",
+            "emergency": 2.24,
+            "emergency_trend": "No Change",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
+          },
+          "48191": {
+            "name": "Hall",
+            "emergency": 4.31,
+            "emergency_trend": "Increasing",
+            "hsa": "Childress, TX - Hall, TX",
+            "date": "2026-09-12"
+          },
+          "48197": {
+            "name": "Hardeman",
+            "emergency": 3.37,
+            "emergency_trend": "Increasing",
+            "hsa": "Wilbarger, TX - Hardeman, TX",
+            "date": "2026-09-12"
+          },
+          "48203": {
+            "name": "Harrison",
+            "emergency": 2.14,
+            "emergency_trend": "No Change",
+            "hsa": "Harrison (Marshall), TX - Cass, TX",
+            "date": "2026-09-12"
+          },
+          "48207": {
+            "name": "Haskell",
+            "emergency": 0.84,
+            "emergency_trend": "No Change",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-09-12"
+          },
+          "48219": {
+            "name": "Hockley",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
+          },
+          "48225": {
+            "name": "Houston",
+            "emergency": 0.92,
+            "emergency_trend": "No Change",
+            "hsa": "Anderson, TX - Cherokee, TX",
+            "date": "2026-09-12"
+          },
+          "48231": {
+            "name": "Hunt",
+            "emergency": 1.0,
+            "emergency_trend": "No Change",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-09-12"
+          },
+          "48243": {
+            "name": "Jeff Davis",
+            "emergency": 1.24,
+            "emergency_trend": "Limited Data",
+            "hsa": "Brewster, TX - Presidio, TX",
+            "date": "2026-09-12"
+          },
+          "48249": {
+            "name": "Jim Wells",
+            "emergency": 1.37,
+            "emergency_trend": "Decreasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-09-12"
+          },
+          "48251": {
+            "name": "Johnson",
+            "emergency": 1.49,
+            "emergency_trend": "Decreasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-09-12"
+          },
+          "48269": {
+            "name": "King",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
+          },
+          "48275": {
+            "name": "Knox",
+            "emergency": 0.38,
+            "emergency_trend": "No Change",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-09-12"
+          },
+          "48003": {
+            "name": "Andrews",
+            "emergency": 0.37,
+            "emergency_trend": "No Change",
+            "hsa": "Gaines, TX - Andrews, TX",
+            "date": "2026-09-12"
+          },
+          "48009": {
+            "name": "Archer",
+            "emergency": 0.38,
+            "emergency_trend": "No Change",
+            "hsa": "Wichita (Wichita Falls), TX - Montague, TX",
+            "date": "2026-09-12"
+          },
+          "48011": {
+            "name": "Armstrong",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48047": {
+            "name": "Brooks",
+            "emergency": 1.37,
+            "emergency_trend": "Decreasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-09-12"
+          },
+          "48065": {
+            "name": "Carson",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48073": {
+            "name": "Cherokee",
+            "emergency": 0.92,
+            "emergency_trend": "No Change",
+            "hsa": "Anderson, TX - Cherokee, TX",
+            "date": "2026-09-12"
+          },
+          "48097": {
+            "name": "Cooke",
+            "emergency": 1.05,
+            "emergency_trend": "Increasing",
+            "hsa": "Denton (Denton), TX - Wise, TX",
+            "date": "2026-09-12"
+          },
+          "48099": {
+            "name": "Coryell",
+            "emergency": 0.37,
+            "emergency_trend": "No Change",
+            "hsa": "Bell (Killeen), TX - Coryell, TX",
+            "date": "2026-09-12"
+          },
+          "48121": {
+            "name": "Denton",
+            "emergency": 1.05,
+            "emergency_trend": "Increasing",
+            "hsa": "Denton (Denton), TX - Wise, TX",
+            "date": "2026-09-12"
+          },
+          "48133": {
+            "name": "Eastland",
+            "emergency": 0.84,
+            "emergency_trend": "No Change",
+            "hsa": "Taylor (Abilene), TX - Jones, TX",
+            "date": "2026-09-12"
+          },
+          "48147": {
+            "name": "Fannin",
+            "emergency": 1.39,
+            "emergency_trend": "No Change",
+            "hsa": "Grayson (Sherman), TX - Fannin, TX",
+            "date": "2026-09-12"
+          },
+          "48161": {
+            "name": "Freestone",
+            "emergency": 2.76,
+            "emergency_trend": "No Change",
+            "hsa": "Navarro, TX - Freestone, TX",
+            "date": "2026-09-12"
+          },
+          "48163": {
+            "name": "Frio",
+            "emergency": 2.24,
+            "emergency_trend": "No Change",
+            "hsa": "Bexar (San Antonio), TX - Guadalupe, TX",
+            "date": "2026-09-12"
+          },
+          "48165": {
+            "name": "Gaines",
+            "emergency": 0.37,
+            "emergency_trend": "No Change",
+            "hsa": "Gaines, TX - Andrews, TX",
+            "date": "2026-09-12"
+          },
+          "48175": {
+            "name": "Goliad",
+            "emergency": 1.54,
+            "emergency_trend": "No Change",
+            "hsa": "Victoria (Victoria), TX - Calhoun, TX",
+            "date": "2026-09-12"
+          },
+          "48181": {
+            "name": "Grayson",
+            "emergency": 1.39,
+            "emergency_trend": "No Change",
+            "hsa": "Grayson (Sherman), TX - Fannin, TX",
+            "date": "2026-09-12"
+          },
+          "48183": {
+            "name": "Gregg",
+            "emergency": 1.56,
+            "emergency_trend": "No Change",
+            "hsa": "Gregg (Longview), TX - Rusk, TX",
+            "date": "2026-09-12"
+          },
+          "48193": {
+            "name": "Hamilton",
+            "emergency": 1.36,
+            "emergency_trend": "No Change",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-09-12"
+          },
+          "48201": {
+            "name": "Harris",
+            "emergency": 1.1,
+            "emergency_trend": "Decreasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-09-12"
+          },
+          "48209": {
+            "name": "Hays",
+            "emergency": 1.99,
+            "emergency_trend": "No Change",
+            "hsa": "Hays (San Marcos), TX - Caldwell, TX",
+            "date": "2026-09-12"
+          },
+          "48211": {
+            "name": "Hemphill",
+            "emergency": 0.21,
+            "emergency_trend": "No Change",
+            "hsa": "Gray, TX - Wheeler, TX",
+            "date": "2026-09-12"
+          },
+          "48217": {
+            "name": "Hill",
+            "emergency": 1.36,
+            "emergency_trend": "No Change",
+            "hsa": "McLennan (Waco), TX - Hill, TX",
+            "date": "2026-09-12"
+          },
+          "48221": {
+            "name": "Hood",
+            "emergency": 1.49,
+            "emergency_trend": "Decreasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-09-12"
+          },
+          "48257": {
+            "name": "Kaufman",
+            "emergency": 1.0,
+            "emergency_trend": "No Change",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-09-12"
+          },
+          "48261": {
+            "name": "Kenedy",
+            "emergency": 1.37,
+            "emergency_trend": "Decreasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-09-12"
+          },
+          "48265": {
+            "name": "Kerr",
+            "emergency": 1.15,
+            "emergency_trend": "No Change",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-09-12"
+          },
+          "48271": {
+            "name": "Kinney",
+            "emergency": 2.8,
+            "emergency_trend": "Decreasing",
+            "hsa": "Maverick, TX - Val Verde, TX",
+            "date": "2026-09-12"
+          },
+          "48289": {
+            "name": "Leon",
+            "emergency": 0.92,
+            "emergency_trend": "No Change",
+            "hsa": "Leon, TX - Madison, TX",
+            "date": "2026-09-12"
+          },
+          "48291": {
+            "name": "Liberty",
+            "emergency": 1.1,
+            "emergency_trend": "Decreasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-09-12"
+          },
+          "48303": {
+            "name": "Lubbock",
+            "emergency": 1.51,
+            "emergency_trend": "No Change",
+            "hsa": "Lubbock (Lubbock), TX - Hockley, TX",
+            "date": "2026-09-12"
+          },
+          "48313": {
+            "name": "Madison",
+            "emergency": 0.92,
+            "emergency_trend": "No Change",
+            "hsa": "Leon, TX - Madison, TX",
+            "date": "2026-09-12"
+          },
+          "48321": {
+            "name": "Matagorda",
+            "emergency": 1.46,
+            "emergency_trend": "No Change",
+            "hsa": "Brazoria (Lake Jackson), TX - Wharton, TX",
+            "date": "2026-09-12"
+          },
+          "48323": {
+            "name": "Maverick",
+            "emergency": 2.8,
+            "emergency_trend": "Decreasing",
+            "hsa": "Maverick, TX - Val Verde, TX",
+            "date": "2026-09-12"
+          },
+          "48307": {
+            "name": "McCulloch",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48331": {
+            "name": "Milam",
+            "emergency": 0.37,
+            "emergency_trend": "No Change",
+            "hsa": "Bell (Killeen), TX - Coryell, TX",
+            "date": "2026-09-12"
+          },
+          "48341": {
+            "name": "Moore",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48353": {
+            "name": "Nolan",
+            "emergency": 0.32,
+            "emergency_trend": "No Change",
+            "hsa": "Nolan, TX - Mitchell, TX",
+            "date": "2026-09-12"
+          },
+          "48355": {
+            "name": "Nueces",
+            "emergency": 1.37,
+            "emergency_trend": "Decreasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-09-12"
+          },
+          "48363": {
+            "name": "Palo Pinto",
+            "emergency": 0.05,
+            "emergency_trend": "No Change",
+            "hsa": "Palo Pinto, TX - Jack, TX",
+            "date": "2026-09-12"
+          },
+          "48369": {
+            "name": "Parmer",
+            "emergency": 1.69,
+            "emergency_trend": "No Change",
+            "hsa": "Deaf Smith, TX - Parmer, TX",
+            "date": "2026-09-12"
+          },
+          "48377": {
+            "name": "Presidio",
+            "emergency": 1.24,
+            "emergency_trend": "Limited Data",
+            "hsa": "Brewster, TX - Presidio, TX",
+            "date": "2026-09-12"
+          },
+          "48379": {
+            "name": "Rains",
+            "emergency": 1.0,
+            "emergency_trend": "No Change",
+            "hsa": "Dallas (Dallas), TX - Collin, TX",
+            "date": "2026-09-12"
+          },
+          "48385": {
+            "name": "Real",
+            "emergency": 1.15,
+            "emergency_trend": "No Change",
+            "hsa": "Kerr, TX - Gillespie, TX",
+            "date": "2026-09-12"
+          },
+          "48393": {
+            "name": "Roberts",
+            "emergency": 0.21,
+            "emergency_trend": "No Change",
+            "hsa": "Gray, TX - Wheeler, TX",
+            "date": "2026-09-12"
+          },
+          "48399": {
+            "name": "Runnels",
+            "emergency": 0.94,
+            "emergency_trend": "No Change",
+            "hsa": "Tom Green (San Angelo), TX - Runnels, TX",
+            "date": "2026-09-12"
+          },
+          "48401": {
+            "name": "Rusk",
+            "emergency": 1.56,
+            "emergency_trend": "No Change",
+            "hsa": "Gregg (Longview), TX - Rusk, TX",
+            "date": "2026-09-12"
+          },
+          "48407": {
+            "name": "San Jacinto",
+            "emergency": 1.1,
+            "emergency_trend": "Decreasing",
+            "hsa": "Harris (Houston), TX - Fort Bend, TX",
+            "date": "2026-09-12"
+          },
+          "48409": {
+            "name": "San Patricio",
+            "emergency": 1.37,
+            "emergency_trend": "Decreasing",
+            "hsa": "Nueces (Corpus Christi), TX - San Patricio, TX",
+            "date": "2026-09-12"
+          },
+          "48425": {
+            "name": "Somervell",
+            "emergency": 1.49,
+            "emergency_trend": "Decreasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-09-12"
+          },
+          "48427": {
+            "name": "Starr",
+            "emergency": 3.95,
+            "emergency_trend": "Decreasing",
+            "hsa": "Hidalgo (Mcallen), TX - Starr, TX",
+            "date": "2026-09-12"
+          },
+          "48437": {
+            "name": "Swisher",
+            "emergency": 1.68,
+            "emergency_trend": "No Change",
+            "hsa": "Potter (Amarillo), TX - Randall, TX",
+            "date": "2026-09-12"
+          },
+          "48439": {
+            "name": "Tarrant",
+            "emergency": 1.49,
+            "emergency_trend": "Decreasing",
+            "hsa": "Tarrant (Fort Worth), TX - Johnson, TX",
+            "date": "2026-09-12"
+          },
+          "48443": {
+            "name": "Terrell",
+            "emergency": 1.71,
+            "emergency_trend": "No Change",
+            "hsa": "Midland (Midland), TX - Pecos, TX",
+            "date": "2026-09-12"
+          },
+          "48463": {
+            "name": "Uvalde",
+            "emergency": 1.98,
+            "emergency_trend": "Decreasing",
+            "hsa": "Uvalde, TX",
+            "date": "2026-09-12"
+          },
+          "48465": {
+            "name": "Val Verde",
+            "emergency": 2.8,
+            "emergency_trend": "Decreasing",
+            "hsa": "Maverick, TX - Val Verde, TX",
+            "date": "2026-09-12"
+          },
+          "48475": {
+            "name": "Ward",
+            "emergency": 0.78,
+            "emergency_trend": "No Change",
+            "hsa": "Ector (Odessa), TX - Reeves, TX",
+            "date": "2026-09-12"
+          },
+          "48489": {
+            "name": "Willacy",
+            "emergency": 2.83,
+            "emergency_trend": "Decreasing",
+            "hsa": "Cameron (Brownsville), TX - Willacy, TX",
+            "date": "2026-09-12"
+          },
+          "48491": {
+            "name": "Williamson",
+            "emergency": 0.91,
+            "emergency_trend": "No Change",
+            "hsa": "Travis (Austin), TX - Williamson, TX",
+            "date": "2026-09-12"
+          },
+          "48505": {
+            "name": "Zapata",
+            "emergency": 4.15,
+            "emergency_trend": "Decreasing",
+            "hsa": "Webb (Laredo), TX - Zapata, TX",
+            "date": "2026-09-12"
           }
         },
         "wastewater_counties": {
+          "Dallas": {
+            "value": 11.06,
+            "sites": 8,
+            "date": "2026-09-05"
+          },
           "Denton": {
-            "value": 34.94,
+            "value": 26.33,
             "sites": 3,
-            "date": "2026-08-29"
+            "date": "2026-09-05"
           },
           "Travis": {
-            "value": 26.7,
+            "value": 26.46,
             "sites": 3,
-            "date": "2026-08-29"
+            "date": "2026-09-05"
           },
-          "Dallas": {
-            "value": 12.04,
-            "sites": 8,
-            "date": "2026-08-29"
-          },
-          "Hays": {
-            "value": 29.73,
-            "sites": 2,
-            "date": "2026-08-29"
-          },
-          "Hidalgo": {
-            "value": 31.14,
-            "sites": 2,
-            "date": "2026-08-29"
-          },
-          "Brazos": {
-            "value": 23.87,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Henderson": {
-            "value": 26.38,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Victoria": {
-            "value": 31.42,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Taylor": {
-            "value": 33.82,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Jefferson": {
-            "value": 36.74,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Hardin": {
-            "value": 20.64,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Anderson": {
-            "value": 12.23,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Wichita": {
-            "value": 5.43,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Webb": {
-            "value": 14.16,
-            "sites": 3,
-            "date": "2026-08-29"
-          },
-          "Tarrant": {
-            "value": 13.46,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Potter": {
-            "value": 2.78,
-            "sites": 2,
-            "date": "2026-08-29"
-          },
-          "Randall": {
-            "value": 2.78,
-            "sites": 2,
-            "date": "2026-08-29"
+          "Harris": {
+            "value": 8.81,
+            "sites": 7,
+            "date": "2026-09-05"
           },
           "Montgomery": {
-            "value": 12.37,
-            "sites": 2,
-            "date": "2026-08-29"
+            "value": 11.94,
+            "sites": 3,
+            "date": "2026-09-05"
           },
-          "Mclennan": {
-            "value": 18.81,
+          "Hays": {
+            "value": 31.78,
+            "sites": 2,
+            "date": "2026-09-05"
+          },
+          "Hidalgo": {
+            "value": 40.34,
+            "sites": 2,
+            "date": "2026-09-05"
+          },
+          "Brazos": {
+            "value": 29.77,
             "sites": 1,
-            "date": "2026-08-29"
+            "date": "2026-09-05"
+          },
+          "Henderson": {
+            "value": 15.06,
+            "sites": 1,
+            "date": "2026-09-05"
+          },
+          "Victoria": {
+            "value": 27.35,
+            "sites": 1,
+            "date": "2026-09-05"
+          },
+          "Taylor": {
+            "value": 31.7,
+            "sites": 1,
+            "date": "2026-09-05"
+          },
+          "Jefferson": {
+            "value": 34.09,
+            "sites": 1,
+            "date": "2026-09-05"
+          },
+          "Anderson": {
+            "value": 15.65,
+            "sites": 1,
+            "date": "2026-09-05"
+          },
+          "Wichita": {
+            "value": 4.83,
+            "sites": 1,
+            "date": "2026-09-05"
+          },
+          "Webb": {
+            "value": 18.5,
+            "sites": 3,
+            "date": "2026-09-05"
           },
           "Galveston": {
-            "value": 8.97,
+            "value": 7.59,
             "sites": 3,
-            "date": "2026-08-29"
-          },
-          "Collin": {
-            "value": 13.58,
-            "sites": 1,
-            "date": "2026-08-29"
-          },
-          "Kaufman": {
-            "value": 10.65,
-            "sites": 2,
-            "date": "2026-08-29"
-          },
-          "Cooke": {
-            "value": 23.28,
-            "sites": 1,
-            "date": "2026-08-29"
+            "date": "2026-09-05"
           },
           "Andrews": {
-            "value": 1.51,
+            "value": 8.52,
             "sites": 1,
-            "date": "2026-08-29"
+            "date": "2026-09-05"
+          },
+          "Cooke": {
+            "value": 12.13,
+            "sites": 1,
+            "date": "2026-09-05"
+          },
+          "Kaufman": {
+            "value": 6.13,
+            "sites": 2,
+            "date": "2026-09-05"
+          },
+          "Collin": {
+            "value": 4.05,
+            "sites": 1,
+            "date": "2026-09-05"
+          },
+          "Tarrant": {
+            "value": 21.28,
+            "sites": 1,
+            "date": "2026-09-05"
+          },
+          "Potter": {
+            "value": 3.97,
+            "sites": 2,
+            "date": "2026-09-05"
+          },
+          "Randall": {
+            "value": 3.97,
+            "sites": 2,
+            "date": "2026-09-05"
+          },
+          "Mclennan": {
+            "value": 17.42,
+            "sites": 1,
+            "date": "2026-09-05"
           }
         },
         "wastewater_summary": {
-          "date": "2026-08-29",
-          "sites": 40,
-          "population_covered": 10227135,
+          "date": "2026-09-05",
+          "sites": 46,
+          "population_covered": 11344315,
           "reporting_complete": true,
           "reporting_percent": 100,
           "expected_sites": 40,
           "expected_population_covered": 10187135,
-          "latest_available_date": "2026-09-05",
+          "latest_available_date": "2026-09-12",
           "reporting_delayed": true
         }
       }
