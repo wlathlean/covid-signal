@@ -26,6 +26,7 @@ DB = ROOT / "data" / "covid_tracker.sqlite3"
 STATE_NAMES = CONFIG["states"]
 WEIGHTS = {"wastewater": 0.40, "emergency": 0.25, "hospital": 0.20, "deaths": 0.15}
 WASTEWATER_COMPLETENESS_MINIMUM = 0.75
+WASTEWATER_COMPLETE_WEEK_LOOKBACK = 8
 
 
 def api_get(source: str, params: dict[str, str]) -> list[dict]:
@@ -155,7 +156,8 @@ def select_wastewater_week(series: list[dict]) -> tuple[int, dict]:
     newest_status = wastewater_reporting_status(series, len(series) - 1)
     selected = len(series) - 1
     if not newest_status["reporting_complete"]:
-        for index in range(len(series) - 2, max(-1, len(series) - 5), -1):
+        first_candidate = max(-1, len(series) - WASTEWATER_COMPLETE_WEEK_LOOKBACK - 1)
+        for index in range(len(series) - 2, first_candidate, -1):
             if wastewater_reporting_status(series, index)["reporting_complete"]:
                 selected = index
                 break

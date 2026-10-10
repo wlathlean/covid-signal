@@ -22,7 +22,8 @@ def main() -> None:
             metric = state.get("metrics", {}).get(required, {})
             if not metric.get("available"):
                 raise SystemExit(f"{code} {required} is unavailable")
-            if metric.get("age_days", 999) > 21:
+            maximum_age = 42 if required == "wastewater" and metric.get("reporting_delayed") else 21
+            if metric.get("age_days", 999) > maximum_age:
                 raise SystemExit(f"{code} {required} is too old to publish")
         if state["metrics"]["wastewater"].get("reporting_percent", 0) < 75:
             raise SystemExit(f"{code} wastewater reporting is incomplete")
