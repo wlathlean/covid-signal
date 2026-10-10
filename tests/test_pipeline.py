@@ -35,6 +35,19 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(selected, 5)
         self.assertFalse(status["reporting_delayed"])
 
+    def test_complete_wastewater_week_can_be_held_across_reporting_gap(self):
+        series = [{"date": f"2026-07-{day:02d}", "value": 4, "sites": 40, "population_covered": 10_000_000} for day in (1, 8, 15, 22, 29)]
+        series.extend([
+            {"date": "2026-08-05", "value": 2, "sites": 26, "population_covered": 6_000_000},
+            {"date": "2026-08-12", "value": 2, "sites": 24, "population_covered": 5_500_000},
+            {"date": "2026-08-19", "value": 2, "sites": 23, "population_covered": 5_400_000},
+            {"date": "2026-08-26", "value": 2, "sites": 22, "population_covered": 5_300_000},
+        ])
+        selected, status = pipeline.select_wastewater_week(series)
+        self.assertEqual(selected, 4)
+        self.assertTrue(status["reporting_delayed"])
+        self.assertGreaterEqual(status["reporting_percent"], 75)
+
 
 if __name__ == "__main__":
     unittest.main()
