@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T18:48:06.776728+00:00",
+  "generated_at": "2026-10-11T20:16:19.840299+00:00",
   "states": {
     "WA": {
       "name": "Washington",
@@ -18,7 +18,7 @@
           },
           "percentile": 99.5,
           "trend": "Stable",
-          "age_days": 7,
+          "age_days": 8,
           "stale": false,
           "history": [
             {
@@ -349,7 +349,7 @@
           },
           "percentile": 86.2,
           "trend": "Rising",
-          "age_days": 7,
+          "age_days": 8,
           "stale": false,
           "history": [
             {
@@ -571,7 +571,7 @@
           },
           "percentile": 94.0,
           "trend": "Rising",
-          "age_days": 7,
+          "age_days": 8,
           "stale": false,
           "history": [
             {
@@ -710,7 +710,7 @@
           },
           "percentile": 13.4,
           "trend": "Stable",
-          "age_days": 77,
+          "age_days": 78,
           "stale": true,
           "history": [
             {
@@ -1087,7 +1087,7 @@
           },
           "percentile": 97.6,
           "trend": "Rising",
-          "age_days": 35,
+          "age_days": 36,
           "stale": true,
           "history": [
             {
@@ -1418,7 +1418,7 @@
           },
           "percentile": 68.1,
           "trend": "Falling",
-          "age_days": 7,
+          "age_days": 8,
           "stale": false,
           "history": [
             {
@@ -1640,7 +1640,7 @@
           },
           "percentile": 74.0,
           "trend": "Falling",
-          "age_days": 7,
+          "age_days": 8,
           "stale": false,
           "history": [
             {
@@ -1779,7 +1779,7 @@
           },
           "percentile": 23.9,
           "trend": "Falling",
-          "age_days": 28,
+          "age_days": 29,
           "stale": false,
           "history": [
             {
